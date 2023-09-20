@@ -8,13 +8,13 @@
   top: 0px;
 
 }
-#titlethe{
+#captionthe{
   width: 50px;
   font-size: 25px;
   font-weight: bold;
   text-align: center;
 }
-#titlesiren{
+#captionsiren{
   font-size: 30px;
   margin-left: 2px;
  
@@ -77,22 +77,22 @@ position: absolute;
 top: 20%;
 left: 7%;
 }
-.title{
+.caption{
   position: absolute;
-  top: 36vw;
-  left: 22vw;
+  top: 26vw;
+  left: 5vw;
   color: rgb(227, 222, 216);
 }
-.title1{
+.caption1{
   position: absolute;
-  top: 20vw;
-  left: 68vw;
+  top: 7vw;
+  left: 60vw;
   color: rgb(189, 187, 184);
 }
-.title2{
+.caption2{
   position: absolute;
-  top: 38vw;
-  left: 68vw;
+  top: 25vw;
+  left: 60vw;
   color: rgb(201, 200, 197);
 }
 .hmain1{
@@ -221,7 +221,7 @@ gap: 60px;
 .dsbt{
   color: darkgray;
 }
-.Mainc{
+.Outer{
   margin-left: 100px;
   display: flex;
   gap: 250px;
@@ -347,7 +347,7 @@ margin-bottom: 20px;
   width: 100vh;
   gap: 20px;
 }
-.dmainc2{
+.dOuter2{
   display: flex;
   justify-content: space-between;
 }
@@ -418,7 +418,7 @@ margin-bottom: 20px;
       text-align: center;
     }
   /* */
-    .Mainc{
+    .Outer{
       display: flex;
       flex-direction: column;
       margin-left: 10px;
@@ -427,7 +427,7 @@ margin-bottom: 20px;
       }
       /* Home css*/ 
       
-      .title{
+      .caption{
         top: 70%;
       }
     .bcontainer{
@@ -594,7 +594,7 @@ height: 100px;
   border: none;
   background-color: none;
 }
-.dmainc2{
+.dOuter2{
 display: flex;
 flex-direction: column;
 gap: 30px;
@@ -635,7 +635,7 @@ display: none;
   .Hcontainer{
     width: 90vw;
   }
-  .title{
+  .caption{
    top: 80%;
    font-size: 0.9em;
     opacity: 1;
@@ -677,6 +677,7 @@ width: 100%;
 }
 .hmain322{
   width: 100%;
+  
 }
 .bcontainer1{
   display: flex;
@@ -738,7 +739,7 @@ width: 100%;
       text-align: center;
     }
   /* */
-    .Mainc{
+    .Outer{
       display: flex;
       flex-direction: column;
       margin-left: 10px;
@@ -911,7 +912,7 @@ height: 100px;
   border: none;
   background-color: none;
 }
-.dmainc2{
+.dOuter2{
 display: flex;
 flex-direction: column;
 gap: 30px;
@@ -952,7 +953,7 @@ display: none;
   .Hcontainer{
     width: 90vw;
   }
-  .title{
+  .caption{
    top: 102%;
    font-size: 0.8em;
     opacity: 1;
