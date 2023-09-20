@@ -1,6 +1,6 @@
-import { useContext } from "react";
-import Avatar from '../img/Avatar.png'
-import { Store } from "./ConAPI";
+import { useContext } from "react"
+import { Store } from "./ConAPI"; "react";
+
 import {useParams } from "react-router-dom";
 import {AiTwotoneLike} from 'react-icons/ai'
 import {GrShareOption} from 'react-icons/gr'
@@ -64,7 +64,7 @@ const Detail = () => {
                 <p className='dtds'>{data.fulldescription}</p>
                 </div>
                 <div className="js1">
-                <span className="js">React</span>  <span className="js">Javascript</span> <span  className="js">animaton</span>
+                <span className="js">☺️</span>  <span className="js">Review</span> <span  className="js">Comment</span>
               <p> <AiTwotoneLike/> </p>
               <hr/>
               <div className="avtar1">
