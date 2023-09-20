@@ -3,13 +3,77 @@ import {Store} from './ConAPI'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
 function Fitness() {
-  const [DData]=useContext(Store);
-  console.log(DData)
-  return (
-    <div className='Mainc'>
+  const [fitnessData]=useContext(Store);
+  console.log(fitnessData)
+  return (  <div>
+
+
+<h1 className='b2'>The Latest</h1>
+<div className='hmain2'>
+<div className='hmain21s'> 
+        {fitnessData.filter((item)=>  (item.id===55)  ).map((data,home)=>{
+        return(
+          <div className='hmain21'>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+        <div className='hmain21s'> 
+        {fitnessData.filter((item)=> (item.id===58) ).map((data,home)=>{
+        return(
+          <div>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+        <div className='hmain21s'>
+        {fitnessData.filter((item)=> (item.id===64)).map((data,home)=>{
+        return(
+          <div>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+
+</div>
+
+
+
+
+    <div className='Outer'>
     <div className='seccnt'>
       <h1 className='b1'>Fitness</h1>
-     {DData.filter((item)=>item.cat==='Fitness').map((data,bolly)=>{
+     {fitnessData.filter((item)=>item.cat==='Fitness').map((data,bolly)=>{
           return(
               <>
             
@@ -36,7 +100,7 @@ function Fitness() {
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
-      {DData.filter((item)=>(item.cat==='Fitness') && (item.id===58)).map((data,bolly)=>{
+      {fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===58)).map((data,bolly)=>{
           return(
               <>
             
@@ -56,7 +120,7 @@ function Fitness() {
     }
 
 {
-DData.filter((item)=>item.id===59).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===59).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -77,7 +141,7 @@ DData.filter((item)=>item.id===59).map((data,ind)=>{
 }
       <hr/>
       {
-DData.filter((item)=>item.id===63).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===63).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -98,7 +162,7 @@ DData.filter((item)=>item.id===63).map((data,ind)=>{
 }
       <hr/>
       {
-DData.filter((item)=>item.id===64).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===64).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -119,7 +183,7 @@ DData.filter((item)=>item.id===64).map((data,ind)=>{
 }
 <hr/>
       {
-DData.filter((item)=>item.id===62).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===62).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -140,7 +204,7 @@ DData.filter((item)=>item.id===62).map((data,ind)=>{
 }
 <hr/>
       {
-DData.filter((item)=>item.id===55).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===55).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -161,7 +225,7 @@ DData.filter((item)=>item.id===55).map((data,ind)=>{
 }
 <hr/>
       {
-DData.filter((item)=>item.id===54).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===54).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -182,7 +246,7 @@ DData.filter((item)=>item.id===54).map((data,ind)=>{
 }
 <hr/>
       {
-DData.filter((item)=>item.id===57).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===57).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -201,12 +265,13 @@ DData.filter((item)=>item.id===57).map((data,ind)=>{
 
 })
 }
-<div className='Adds'>
+<div className='Adds1'>
 Advertisement
 </div>
 
       </div>
       
+  </div>
   </div>
   )
 }
