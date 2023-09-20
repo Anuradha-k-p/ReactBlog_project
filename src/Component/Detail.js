@@ -1,13 +1,13 @@
 import { useContext } from "react"
-import { Store } from "./ConAPI"; "react";
+import { Store } from "./ConAPI"; 
 
 import {useParams } from "react-router-dom";
-import {AiTwotoneLike} from 'react-icons/ai'
-import {GrShareOption} from 'react-icons/gr'
-import {AiFillFacebook} from 'react-icons/ai'
-import {AiFillTwitterSquare} from 'react-icons/ai'
-import {AiFillInstagram} from 'react-icons/ai'
-import {AiFillYoutube} from 'react-icons/ai'
+import {AiTwotoneLike} from 'react-icons/ai';
+import {GrShareOption} from 'react-icons/gr';
+import {AiFillFacebook} from 'react-icons/ai';
+import {AiFillTwitterSquare} from 'react-icons/ai';
+import {AiFillInstagram} from 'react-icons/ai';
+import {AiFillYoutube} from 'react-icons/ai';
 
 const Detail = () => {
     const [DData]=useContext(Store);
@@ -41,9 +41,7 @@ const Detail = () => {
                  <h3>{data.Heading}</h3>
                  <div className="avtaricon">
                  <div className="avtar">
-                  <div className="avimg">
-                  <img src={Avatar} alt='Not Found'/>
-                  </div>
+                  
                    <div>
                   <p>{data.name}</p>
                   <p className='ds'>{data.date}</p>
@@ -68,9 +66,7 @@ const Detail = () => {
               <p> <AiTwotoneLike/> </p>
               <hr/>
               <div className="avtar1">
-                  <div className="avimg">
-                  <img src={Avatar} alt='Not Found'/>
-                  </div>
+                  
                    <div>
                     <span className='ds'>Written</span>
                   <p>{data.name}</p>
@@ -104,11 +100,7 @@ const Detail = () => {
                <img className='dmg' src={data.image} alt='Not Found'/>
                <p className='bsh'>{data.Heading}</p>
                <div className="avc">
-              <div>
-               
-              <img src={Avatar} alt='Not Found' className="av"/>
               
-              </div>
               <div>
               
                <p className='dsbt'>{data.date}</p>
@@ -129,9 +121,7 @@ const Detail = () => {
                <img className='dmg' src={data.image} alt='Not Found'/>
                <p className='bsh'>{data.Heading}</p>
                <div className="avc">
-              <div>
-              <img  src={Avatar} alt='Not Found' className="av"/>
-              </div>
+             
               <div>
                <p className='dsbt'>{data.date}</p>
                <p className='dsbt'>{data.name}</p>
@@ -151,11 +141,7 @@ const Detail = () => {
                <img className='dmg' src={data.image} alt='Not Found'/>
                <p className='bsh'>{data.Heading}</p>
                <div className="avc">
-              <div>
-               
-              <img src={Avatar} alt='Not Found' className="av"/>
-              
-              </div>
+             
               <div>
               
                <p className='dsbt'>{data.date}</p>
@@ -176,9 +162,7 @@ const Detail = () => {
                <img className='dmg' src={data.image} alt='Not Found'/>
                <p className='bsh'>{data.Heading}</p>
                <div className="avc">
-              <div>
-              <img  src={Avatar} alt='Not Found' className="av"/>
-              </div>
+              
               <div>
                <p className='dsbt'>{data.date}</p>
                <p className='dsbt'>{data.name}</p>
