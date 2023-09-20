@@ -4,13 +4,80 @@ import '../App.css'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
 function Food() {
-  const [DData]=useContext(Store);
+  const [foodData]=useContext(Store);
   return ( 
+
   <>
-    <div className='Mainc'>
+
+  
+<h1 className='b2'>The Latest</h1>
+<div className='hmain2'>
+<div className='hmain21s'> 
+        {foodData.filter((item)=>  (item.id===39)  ).map((data,home)=>{
+        return(
+          <div className='hmain21'>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+        <div className='hmain21s'> 
+        {foodData.filter((item)=> (item.id===50) ).map((data,home)=>{
+        return(
+          <div>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+        <div className='hmain21s'>
+        {foodData.filter((item)=> (item.id===49)).map((data,home)=>{
+        return(
+          <div>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      }
+        </div>
+
+</div>
+
+
+
+
+
+
+    <div className='Outer'>
       <div className='seccnt'>
         <h1 className='b1'>Food</h1>
-       {DData.filter((item)=>(item.cat==='Food') && (item.id>=42)).map((data,bolly)=>{
+       {foodData.filter((item)=>(item.cat==='Food') && (item.id>=46)).map((data,bolly)=>{
             return(
                 <>
               
@@ -37,7 +104,7 @@ function Food() {
         </div>
         <div className='seccnt'>
           <h1  className='b1'>Top Posts</h1>
-        {DData.filter((item)=>(item.cat==='Food') && (item.id===45)).map((data,bolly)=>{
+        {foodData.filter((item)=>(item.cat==='Food') && (item.id===45)).map((data,bolly)=>{
             return(
                 <>
               
@@ -57,7 +124,7 @@ function Food() {
       }
 
 {
-  DData.filter((item)=>item.id===51).map((data,ind)=>{
+  foodData.filter((item)=>item.id===51).map((data,ind)=>{
     return(
      
       <div className='short' key={ind}>
@@ -79,7 +146,7 @@ function Food() {
 }
         <hr/>
         {
-  DData.filter((item)=>item.id===49).map((data,ind)=>{
+  foodData.filter((item)=>item.id===49).map((data,ind)=>{
     return(
       <div className='short' key={ind}>
         <div className='bsimg'>
@@ -100,7 +167,7 @@ function Food() {
 }
         <hr/>
         {
-  DData.filter((item)=>item.id===44).map((data,ind)=>{
+  foodData.filter((item)=>item.id===44).map((data,ind)=>{
     return(
       <div className='short' key={ind}>
         <div className='bsimg'>
@@ -119,70 +186,8 @@ function Food() {
 
   })
 }
-<hr/>
-        {
-  DData.filter((item)=>item.id===44).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>5</span></div>
 
-             
-      </div>
-    )
-   
-
-  })
-}
-<hr/>
-        {
-  DData.filter((item)=>item.id===44).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>6</span></div>
-
-             
-      </div>
-    )
-   
-
-  })
-}
-<hr/>
-        {
-  DData.filter((item)=>item.id===44).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>7</span></div>
-
-             
-      </div>
-    )
-   
-
-  })
-}
-<div className='Adds'>
+<div className='Adds1'>
   Advertisement
 </div>
 
