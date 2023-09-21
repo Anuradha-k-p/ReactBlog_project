@@ -3,6 +3,7 @@ import {Store} from './ConAPI'
 import '../App.css'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
+import Footer from './Footer';
 
 function Bollywood() {
   const [bollyData]=useContext(Store);
@@ -15,8 +16,8 @@ function Bollywood() {
 
     <div>
 
-<h1 className='b2'>The Latest</h1>
-<div className='hmain2'>
+<h1 className='b2CP'>Bollywood</h1>
+<div className='hmain2Cp'>
 <div className='hmain21s'> 
         {bollyData.filter((item)=>  (item.id===6)  ).map((data,home)=>{
         return(
@@ -74,10 +75,10 @@ function Bollywood() {
 
 </div>
 
-<div className='Outer'>
+<div className='OuterCp'>
 
       <div className='seccnt'>
-        <h1 className='b1'>Bollywood</h1>
+        <h1 className='b1'>Letest</h1>
        {bollyData.filter((item)=>(item.cat==='Bollywood') && (item.id<13)).map((data,bolly)=>{
             return(
                 <>
@@ -168,7 +169,7 @@ function Bollywood() {
 }
         <hr/>
         {
-  bollyData.filter((item)=>item.id===11).map((data,ind)=>{
+  bollyData.filter((item)=>item.id===2).map((data,ind)=>{
     return(
       <div className='short' key={ind}>
         <div className='bsimg'>
@@ -188,68 +189,7 @@ function Bollywood() {
   })
 }
 <hr/>
-        {
-  bollyData.filter((item)=>item.id===4).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>5</span></div>
-
-             
-      </div>
-    )
-   
-
-  })
-}
-<hr/>
-        {
-  bollyData.filter((item)=>item.id===14).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>6</span></div>
-
-             
-      </div>
-    )
-   
-
-  })
-}
-<hr/>
-        {
-  bollyData.filter((item)=>item.id===13).map((data,ind)=>{
-    return(
-      <div className='short' key={ind}>
-        <div className='bsimg'>
-         <img className='bsimg1' src={data.image} alt='Not Found'/>
-         </div>
-         <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
-                </div>
-                <div id='number'><span  className='number'>7</span></div>
-
-             
-      </div>
-    )
-   
-
-  })
-}
+      
 <div className='Adds1'>
   Advertisement
 </div>
@@ -257,8 +197,9 @@ function Bollywood() {
         </div>
         
     </div>
-
+ <Footer/>
 </div>
+
 
   )
 }
