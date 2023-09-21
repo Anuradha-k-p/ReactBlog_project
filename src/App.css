@@ -22,7 +22,7 @@
   
 }
 .menu{
-  width: 70%; 
+ 
   position: absolute;
   top: 10%;
  
@@ -41,14 +41,28 @@
 }
 .nav_element {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   
 }
-.nav_element :hover{
-  background-color: rgb(97, 168, 25);
-  height: 40px;
+.nav_element:hover{
+border: 1px solid white;
+transition: .9s;
+transition-timing-function: linear;
+box-sizing: border-box;
+padding: 1%;
+border-radius: 5px;
 }
+.nav_element:active{
+  border-bottom: 1px solid white;
+}
+
+
+/* }
+.nav_element :hover{
+  background-color: rgb(241, 245, 238);
+  height: 40px;
+} */
 #hr{
   display: none;
 }
@@ -68,7 +82,48 @@
 }
 
 
+/* all comp */
 
+.hmainhm{
+  position: absolute;
+  top: 20%;
+ 
+  }
+/*   
+.hmain1{
+  display: flex;
+  gap: 60px;
+  } */
+ .hmain2Cp{
+    display: flex;
+ 
+    position: absolute;
+    top: 27%;
+    box-sizing: border-box;
+    padding-left: 7%;
+
+    width: 90vw;
+    margin: 0;
+  }
+  .OuterCp{
+    margin-left: 100px;
+    display: flex;
+    gap: 250px;
+    font-size: 1rem;
+    position: absolute;
+ 
+    top: 85%;
+    
+  }
+.b2CP{
+  text-decoration: underline solid rgb(215, 57, 57);
+  font-weight: 300;
+  position: absolute;
+  top: 15%;
+  box-sizing: border-box;
+    padding-left: 7%;
+
+}
 
 
 /* css for home */
@@ -80,31 +135,48 @@ left: 7%;
 .caption{
   position: absolute;
   top: 26vw;
-  left: 5vw;
+  left: 9vw;
   color: rgb(227, 222, 216);
 }
 .caption1{
   position: absolute;
   top: 7vw;
-  left: 60vw;
+  left: 77vw;
   color: rgb(189, 187, 184);
 }
 .caption2{
   position: absolute;
   top: 25vw;
-  left: 60vw;
+  left: 77vw;
   color: rgb(201, 200, 197);
 }
 .hmain1{
 display: flex;
-gap: 60px;
+
+width: 90vw;
+margin: 0 auto;
+box-sizing: border-box;
+margin-left: 7%;
 }
 .hmain2{
   display: flex;
-  gap: 60px;
+  gap: 3.5%px;
+  width: 100vwvw;
+  box-sizing: border-box;
+  margin-left: 7%;
   /* position: absolute;
   top: 15%; */
 }
+
+.hmain11{
+width: 60vw;
+padding: 0;
+}
+
+.hmain12{
+  width: 20vw;
+}
+
 
 #letst{
   position: absolute;
@@ -154,11 +226,11 @@ gap: 60px;
 }
 .himg1{
   height: 500px;
-  width: 800px;
+  width: 55vw;
 }
 .himg2{
   height: 230px;
-  width: 400px;
+  width: 20vw;
   margin-bottom: 30px;
 }
 .himg3{
@@ -193,6 +265,8 @@ gap: 60px;
 .b2{
   text-decoration: underline solid rgb(215, 57, 57);
   font-weight: 300;
+  box-sizing: border-box;
+  margin-left: 7%;
 }
 .bcontainer{
   display: flex;
@@ -280,13 +354,13 @@ gap: 20px;
 }
 .Adds{
   position: absolute;
-  top: 67%;
-  left: 61%;
+  top: 69%;
+  left: 60%;
   border: 2px solid rgba(155, 148, 148, 0.638);
   display: flex;
   margin-top: 10%;
   width: 400px;
-  height: 120vh;
+  height: 100vh;
  font-size: 28px;
  font-weight: bold;
   align-items: center;
@@ -297,7 +371,7 @@ gap: 20px;
 .Adds1{
 
   position: absolute;
-  top: 200%;
+  top: 60%;
   left: 61%;
   border: 2px solid rgba(155, 148, 148, 0.638);
   display: flex;
@@ -308,6 +382,7 @@ gap: 20px;
  font-weight: bold;
   align-items: center;
   justify-content: center;
+  margin: 0;
 
 }
 .Addsabove{
@@ -412,6 +487,66 @@ margin-bottom: 20px;
   text-decoration: none;
   }
 
+ /* footer*/
+  .container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 390%;
+    box-sizing: border-box;
+    padding-left: 5%;
+    background-image: url(https://www.shutterstock.com/image-vector/abstract-geometric-background-triangle-shape-260nw-2118507641.jpg);
+    background-size: cover;
+  }
+.child{
+  width: 20vw;
+  height: 25vh;
+  font-size: 20px;
+  color: rgb(243, 211, 191);
+
+}
+#ch{
+  line-height: 2px;
+}
+.icon{
+  font-size: larger;
+}
+
+
+.button{
+  height: 5vh;
+  width: 10vw;
+  background-color: rgb(89, 85, 85);
+}
+
+ .decor{
+  text-decoration: none;
+  color: rgb(243, 211, 191);
+
+ }
+
+
+.dmainc{
+  position: absolute;
+  top: 15%;
+}
+
+
+.dmainc2{
+  width: 100vw;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.dmainc21{
+  width: 30vw;
+}
 
 
 /* mobile view*/
@@ -436,6 +571,7 @@ margin-bottom: 20px;
       flex-direction: column;
       height: 50%;
       margin-top: 80px;
+      width: 100vw;
     }
     .cross{
      
@@ -475,6 +611,20 @@ margin-bottom: 20px;
       width: 90vw;
       height: 50vw;
     }
+    .OuterCp{
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      gap: 0px;
+  font-size: 0.9rem;
+      }
+
+
+
+
+
+
+
 
     .latesArticle{
       margin: 0px;
@@ -547,6 +697,7 @@ width: 25vw;
   position: absolute;
   height: 50px;
  left: 80%;
+ font-size: 25px;
  }
  .im{
   width:96vw;
@@ -662,7 +813,7 @@ display: none;
   width: 100%;
 }
   .Hcontainer{
-    width: 90vw;
+    width: 70vw;
   }
   .caption{
    top: 80%;
@@ -737,13 +888,43 @@ width: 100%;
         display: flex;
         width: 90%;
       }
+
+
+      .container{
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        
+      }
+    .child{
+      width: 100vw;
+    
+    
+    }
     
 }
+
+
+
+
 /*tab*/
 @media only screen and (min-width: 600px) and (max-width:1000px) {
   .Adds{
     display: none;
   }
+  .container{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+.child{
+  width: 100vw;
+
+
+}
   
     /*nav_element  css*/
         .hdl{
