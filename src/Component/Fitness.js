@@ -2,14 +2,15 @@ import React,{useContext} from 'react'
 import {Store} from './ConAPI'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
+import Footer from './Footer';
 function Fitness() {
   const [fitnessData]=useContext(Store);
   console.log(fitnessData)
   return (  <div>
 
 
-<h1 className='b2'>The Latest</h1>
-<div className='hmain2'>
+<h1 className='b2CP'>Fitness</h1>
+<div className='hmain2Cp'>
 <div className='hmain21s'> 
         {fitnessData.filter((item)=>  (item.id===55)  ).map((data,home)=>{
         return(
@@ -70,9 +71,9 @@ function Fitness() {
 
 
 
-    <div className='Outer'>
+    <div className='OuterCp'>
     <div className='seccnt'>
-      <h1 className='b1'>Fitness</h1>
+      <h1 className='b1'>Letest</h1>
      {fitnessData.filter((item)=>item.cat==='Fitness').map((data,bolly)=>{
           return(
               <>
@@ -88,7 +89,11 @@ function Fitness() {
               
               </div>
               
-              </div>
+              </div> 
+
+
+
+
               <hr className='hr'/>
               </>
                
@@ -96,6 +101,35 @@ function Fitness() {
       })
 
       } 
+
+{/* 
+{fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===58)).map((data,bolly)=>{
+          return(
+              <>
+            
+              <div className='blcontainer' key={bolly}>
+                <div >
+              <img className='bsimg' src={data.image} alt='Not Found'/>
+              </div>
+              <div className='bdsc'>
+              <span className='bsh'>{data.Heading}</span> <span id='st'  className='number'>1</span>
+              </div>
+              <p className='ds'>{data.date}</p>
+            <hr></hr>
+              </div>
+              </>
+          )
+      })
+    } */}
+
+
+
+
+
+
+
+
+
       <p><span > Load More</span><img className='d' src={arrowr} alt='Not Found'/></p>
       </div>
       <div className='seccnt'>
@@ -182,89 +216,7 @@ fitnessData.filter((item)=>item.id===64).map((data,ind)=>{
 })
 }
 <hr/>
-      {
-fitnessData.filter((item)=>item.id===62).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>5</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
-<hr/>
-      {
-fitnessData.filter((item)=>item.id===55).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>6</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
-<hr/>
-      {
-fitnessData.filter((item)=>item.id===54).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>7</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
-<hr/>
-      {
-fitnessData.filter((item)=>item.id===57).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>8</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
+    
 <div className='Adds1'>
 Advertisement
 </div>
@@ -272,6 +224,7 @@ Advertisement
       </div>
       
   </div>
+  <Footer/>
   </div>
   )
 }
