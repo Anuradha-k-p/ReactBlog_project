@@ -3,6 +3,7 @@ import { Store } from './ConAPI'
 import {Link} from 'react-router-dom'
 import '../App.css'
 import arrowr from '../img/arrowr.svg'
+import Footer from './Footer'
 function Technology() {
 const [techData]=useContext(Store)
   return(
@@ -10,8 +11,8 @@ const [techData]=useContext(Store)
 
 
     
-<h1 className='b2'>The Latest</h1>
-<div className='hmain2'>
+<h1 className='b2CP'>Technology</h1>
+<div className='hmain2Cp'>
 <div className='hmain21s'> 
         {techData.filter((item)=>  (item.id===38)  ).map((data,home)=>{
         return(
@@ -70,9 +71,9 @@ const [techData]=useContext(Store)
 </div>
 
 
-    <div className='Outer'>
+    <div className='OuterCp'>
     <div className='seccnt'>
-      <h1 className='b1'>Technology</h1>
+      <h1 className='b1'>Letest</h1>
      {techData.filter((item)=>item.cat==='Technology').map((data,bolly)=>{
           return(
               <>
@@ -182,76 +183,15 @@ techData.filter((item)=>item.id===34).map((data,ind)=>{
 })
 }
 <hr/>
-      {
-techData.filter((item)=>item.id===38).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>5</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
-<hr/>
-      {
-techData.filter((item)=>item.id===32).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>6</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
-<hr/>
-      {
-techData.filter((item)=>item.id===37).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>7</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-}
+     
 
 <div className='Adds1'>
 Advertisement
 </div>
 
       </div>
-      
   </div>
+      <Footer/>
   </>
   )
 }
