@@ -2,6 +2,7 @@ import React,{useContext} from 'react'
 import {Store} from './ConAPI'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
+import Footer from './Footer';
 import '../App.css'
 function Hollywood() {
   const [hollyData]=useContext(Store);
@@ -9,8 +10,8 @@ function Hollywood() {
     <>
 
     {/* <div  id='letst'> */}
-<h1 className='b2'>The Latest</h1>
-<div className='hmain2' >
+<h1 className='b2CP'>Hollywood</h1>
+<div className='hmain2Cp' >
 <div className='hmain21s' > 
         {hollyData.filter((item)=>  (item.id===68)  ).map((data,home)=>{
         return(
@@ -70,9 +71,9 @@ function Hollywood() {
 {/* </div> */}
 
 
-    <div className='Outer'>
+    <div className='OuterCp'>
     <div className='seccnt'>
-      <h1 className='b1'>Hollywood</h1>
+      <h1 className='b1'>Letest</h1>
      {hollyData.filter((item)=>(item.cat==='Hollywood') && (item.id>=19)).map((data,bolly)=>{
           return(
               <>
@@ -182,54 +183,14 @@ hollyData.filter((item)=>item.id===70).map((data,ind)=>{
 })
 }
 <hr/>
-      {
-hollyData.filter((item)=>item.id===24).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>5</span></div>
-
-           
-    </div>
-  )
  
-
-})
-}
-<hr/>
-      {
-hollyData.filter((item)=>item.id===23).map((data,ind)=>{
-  return(
-    <div className='short' key={ind}>
-      <div className='bsimg'>
-       <img className='bsimg1' src={data.image} alt='Not Found'/>
-       </div>
-       <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
-              </div>
-              <div id='number'><span  className='number'>6</span></div>
-
-           
-    </div>
-  )
- 
-
-})
-} 
 <div className='Adds1'>
 Advertisement
 </div>
 
       </div>
-      
   </div>
+      <Footer/>
  </>
   )
 }
