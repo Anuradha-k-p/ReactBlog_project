@@ -2,7 +2,7 @@ import { useContext } from "react"
 import { Store } from "./ConAPI"; 
 
 import {useParams } from "react-router-dom";
-import {AiTwotoneLike} from 'react-icons/ai';
+import {AiFillGithub, AiTwotoneLike} from 'react-icons/ai';
 import {GrShareOption} from 'react-icons/gr';
 import {AiFillFacebook} from 'react-icons/ai';
 import {AiFillTwitterSquare} from 'react-icons/ai';
@@ -19,7 +19,8 @@ const Detail = () => {
    <div className="dmainc">
 <div className="detail1">
 
-      {DData.filter((item)=>item.id===id).map((data,bolly)=>{
+     
+         {DData.filter((item)=>item.id===id).map((data,bolly)=>{
             return(
                 <>
               <div className="mdetai"  key={bolly}> 
@@ -52,6 +53,7 @@ const Detail = () => {
                 <AiFillTwitterSquare/>
                 <AiFillInstagram/>
                 <AiFillYoutube/>
+                <AiFillGithub/>
                  </div>
                 
                  </div>
@@ -113,7 +115,7 @@ const Detail = () => {
       })
     }
     </div>
-    <div className="dmainc22">
+    <div className="dmainc21">
     {DData.filter((item)=>(item.id===51)).map((data,bolly)=>{
           return(
               <>
@@ -133,7 +135,7 @@ const Detail = () => {
       })
     }
     </div>
-    <div className="dmainc23">
+    <div className="dmainc21">
     {DData.filter((item)=>(item.id===17)).map((data,bolly)=>{
           return(
               <>
@@ -154,27 +156,8 @@ const Detail = () => {
       })
     }
     </div>
-    <div className="dmainc24">
-    {DData.filter((item)=>(item.id===64)).map((data,bolly)=>{
-          return(
-              <>
-             <div className='blcontainer1' key={bolly}>
-               <img className='dmg' src={data.image} alt='Not Found'/>
-               <p className='bsh'>{data.Heading}</p>
-               <div className="avc">
-              
-              <div>
-               <p className='dsbt'>{data.date}</p>
-               <p className='dsbt'>{data.name}</p>
-               </div>
-               </div>
-          </div>
-              </>
-          )
-      })
-    }
-    </div>
-  
+    
+
 </div>
    </div>
    </div>
