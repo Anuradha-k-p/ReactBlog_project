@@ -3,6 +3,7 @@ import { Store } from './ConAPI'
 import arrowr from '../img/arrowr.svg'
 
 import { Link } from 'react-router-dom'
+import Footer from './Footer'
 function Home() {
 
   const [homeData]=useContext(Store)
@@ -11,7 +12,7 @@ function Home() {
     <>
 
 
-    <div className='hmain'>
+    <div className='hmainhm'>
 <div className='hmain1'>
 <div className='hmain11'>
 {
@@ -93,7 +94,7 @@ function Home() {
       }
         </div>
         <div className='hmain21s'>
-        {homeData.filter((item)=> (item.id===29)).map((data,home)=>{
+        {homeData.filter((item)=> (item.id===22)).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -123,7 +124,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 
-{homeData.filter((item)=>((item.cat==='Hollywood') && (item.id>=26))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Hollywood') && (item.id>=25))).map((data,holly)=>{
             return(
                 <>
               
@@ -146,7 +147,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 
-{homeData.filter((item)=>((item.cat==='Food') && (item.id>=52))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Food') && (item.id>=53))).map((data,holly)=>{
             return(
                 <>
               
@@ -169,7 +170,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 
-{homeData.filter((item)=>((item.cat==='Fitness') && (item.id>=66))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Fitness') && (item.id>=67))).map((data,holly)=>{
             return(
                 <>
               
@@ -193,7 +194,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 <p><img  src={arrowr} alt='Not Found'/><span className='dm'> Load More</span></p>  
-{homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=14))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=15))).map((data,holly)=>{
             return(
                 <>
               
@@ -296,7 +297,7 @@ function Home() {
     <hr className='hrhome'/>
     <div>
     {
-  homeData.filter((item)=>item.id===61).map((data,ind)=>{
+  homeData.filter((item)=>item.id===62).map((data,ind)=>{
     return(
      
       <div className='shorthome' key={ind}>
@@ -319,7 +320,7 @@ function Home() {
     <hr/>
     <div>
     {
-  homeData.filter((item)=>item.id===19).map((data,ind)=>{
+  homeData.filter((item)=>item.id===15).map((data,ind)=>{
     return(
      
       <div className='shorthome' key={ind}>
@@ -353,7 +354,10 @@ function Home() {
 
    </div> 
 
-    </div>
+    </div>  
+
+
+    <Footer/>
     </>
   )
 }
