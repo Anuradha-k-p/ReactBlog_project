@@ -1,15 +1,19 @@
-import React from 'react'
+
+ import React from 'react'
 import Home from './Home'
 import Bollywood from './Bollywood'
 import Technology from './Technology'
 import Hollywood from './Hollywood'
 import Fitness from './Fitness'
 import Food from './Food'
-//import Error from './Error'
+import Detailpage from './Dynamic'
+
 import LinkCompo from './NavBarCompo'
 import {Routes,Route} from 'react-router-dom'
 import DataStore from './ConAPI'
 import Detail from './Detail'
+
+
 function RouteCompo() {
  return (
     <>
@@ -20,6 +24,7 @@ function RouteCompo() {
 
         <Route path='/' element={<Home/>}/>
         <Route path='/Detail/:id' element={<Detail/>}/>
+        <Route path='/Dynamic/:id' element={ <Detailpage/>}/>
         <Route path='/Bollywood' element={<Bollywood/>}/>
         <Route  path='/Technology' element={<Technology/>}/>
         <Route path='/Hollywood' element={<Hollywood/>}/>
@@ -29,6 +34,7 @@ function RouteCompo() {
     </Routes>
 
     </DataStore>
+
     </>
  )
 }
