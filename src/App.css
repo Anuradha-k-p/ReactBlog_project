@@ -1,3 +1,15 @@
+body{
+  overflow-x: hidden;
+}
+ .btn{
+  width: 10vw;
+  height: 5vh;
+  background-color: grey;
+  position: absolute;
+  top: 20%;
+  left: 80%;
+ }
+
 /* nav_element cmp css*/
 .hdl{
   display: flex;
@@ -161,11 +173,47 @@ margin-left: 7%;
 .hmain2{
   display: flex;
   gap: 3.5%px;
-  width: 100vwvw;
+  width: 100vw;
   box-sizing: border-box;
-  margin-left: 7%;
+  padding-left: 7%;
   /* position: absolute;
   top: 15%; */
+}
+
+.hmain21s,.hmain21{
+  width: 30vw;
+  height: 30vh;
+}
+
+
+.himg3h{
+  width: 20vw;
+  height: 20vh;
+}
+.hmain32{
+  display: none;
+}
+
+.hmain3{
+  position: absolute;
+  top: 120%;
+  gap: 5%;
+}
+.hmain322{
+  width: 40vw;
+}
+.bsimg1,.bsimg{
+  width: 30vw;
+  height: 20vh;
+}
+.b2l{
+  position: absolute;
+  top: 110%;
+  text-decoration: underline solid rgb(215, 57, 57);
+  font-weight: 300;
+  box-sizing: border-box;
+  padding-left: 7%;
+
 }
 
 .hmain11{
@@ -335,6 +383,12 @@ padding: 0;
   flex-direction: column;
   gap: 50px;
 }
+.hmain31{
+  width: 50vw;
+}
+.ds1,.dsc1{
+  width: 20vw;
+}
 .hmain4{
 display: flex;
 gap: 20px;
@@ -354,7 +408,7 @@ gap: 20px;
 }
 .Adds{
   position: absolute;
-  top: 69%;
+  top: 210%;
   left: 60%;
   border: 2px solid rgba(155, 148, 148, 0.638);
   display: flex;
@@ -496,7 +550,7 @@ margin-bottom: 20px;
     justify-content: space-evenly;
     flex-wrap: wrap;
     position: absolute;
-    top: 390%;
+    top: 400%;
     box-sizing: border-box;
     padding-left: 5%;
     background-image: url(https://www.shutterstock.com/image-vector/abstract-geometric-background-triangle-shape-260nw-2118507641.jpg);
@@ -548,690 +602,189 @@ margin-bottom: 20px;
   width: 30vw;
 }
 
+/*   media query  for web */
+@media only screen and (max-width:1300px){
 
-/* mobile view*/
-@media only screen and (min-width: 360px) and (max-width:600px) {
-  .Adds{
-    display: none;
-  }
-  
-    /*nav_element  css*/
-        .hdl{
-      top: -52px;
-    }
-    #hr{
-      display: block;
-    }
-    .mobileview{
-      display: block;
-    }
-    
-    .menu{
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-      margin-top: 80px;
-      width: 100vw;
-    }
-    .cross{
-     
-      width: fit-content; 
-    } 
-    .nav_element {
-      border: 2px solid white;
-      width: 100%;
-      text-align: center;
-    }
-  /* */
-    .Outer{
-      display: flex;
-      flex-direction: column;
-      margin-left: 10px;
-      gap: 0px;
-  font-size: 0.9rem;
-      }
-      /* Home css*/ 
-      
-      .caption{
-        top: 70%;
-      }
-    .bcontainer{
-      width: 90vw;
-      height: 200px;
-    }
-  
-    
-          .himg5{
-            width: 90%;
-          }
-          .dsc1{
-            width: 90%;
-          }
-    .himg1{
-      width: 90vw;
-      height: 50vw;
-    }
-    .OuterCp{
-      display: flex;
-      flex-direction: column;
-      margin-left: 10px;
-      gap: 0px;
-  font-size: 0.9rem;
-      }
-
-
-
-
-
-
-
-
-    .latesArticle{
-      margin: 0px;
-      width: 100%;
-    }
-    .shorthome{
-      display: flex;
-      gap: 20px;
-      height: 120px;
-    }
-    .bsimg1{
-      width: 15vw;
-      height: 15vh;
-    }
-  
-    .hmain4{
-      display: flex;
-      flex-direction: column;
-      width: 90vw;
-      gap: 10px;
-    }
-    .hmain41{
-      width: 80vw;
-    }
-    .hmain42{
-      width: 80vw;
-    }
-    .hmain43{
-      width: 80vw;
-    }
-    .hstories{
-width: 90vw;
-    }
-  
-   .img{
-    height: 140px;
-    width: 30vw;
-  }  
- 
-  .ds{
-    width: 50vw;
-    
+  body{
+    overflow-x: hidden;
   }
 
-  .dsbt{
-width: 25vw;
+  .menu{
+    width: 100vw;
   }
-  .d{
-    position:absolute;
-    left: 20%;
-    padding-right: 1px;
-   }
-
-  #st{
-   display: none;
+  .hmain21s{
+    width: 29vw;
   }
-  #number{
-    display: none;
+  .himg3{
+    width: 25vw;
   }
-
-  .mdetai{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-  }
- .like-share{
-  display: none;
- }
- .lg{
-  position: absolute;
-  height: 50px;
- left: 80%;
- font-size: 25px;
- }
- .im{
-  width:96vw;
-height: 300px;
-margin-bottom: 20px;
- }
- .dtds{
-  width:96vw;
-  font-size: 1em;
-}
-.avtar1{
-  display: flex;
-  width: 55vw;
-  gap: 30px;
-}
-
-.avc{
-  display: flex;
-  flex-direction: row-reverse;
-}
-.av{
-  display: none;
-}
-.dmg{
-width: 100px;
-height: 100px;
-}
-
-
-
-.himg4{
-  height: 230px;
-  width: 80vw;
-  margin-right: 40px;
-}
-.himg5{
-  height: 230px;
-  width: 40vw;
-  margin-right: 40px;
-}
-.Hmlates{
-  display: flex;
-  flex-direction: column;
-}
-
-.Addsabove{
-  position: absolute;
-  top: 635%;
-  left: 60px;
-}
-.homelates{
-  display: flex;
-  flex-direction: column;
-}
-.himg6{
-  display: none;
-
-}
-.b3{
-  margin: 0px;
-  margin-top: 20px;
-}
-.lateststory{
-  position: absolute;
-  top: 915%;
-  left: 60px;
-}
-.mimage{
-  position: relative;
-  left: 0px;
-}
-.dbox{
-  
-  border: none;
-  background-color: none;
-}
-.dOuter2{
-display: flex;
-flex-direction: column;
-gap: 30px;
-}
-/*Home css*/
-.hmain{
-  margin:5px;
-}
-.homemain{
-  margin: 10px;
-}
-.hmain12{
-display: none;
-}
-.home2{
-  display: none;
-}
-.hmain2{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.hmain21s{
-  width: 100%;
-}
-.hmain21{
-  width: 100%;
-}
-.himg3{
-  width: 90%;
-}
-.himg5{
-  width: 90%;
-}
-.b2{
-  width: 100%;
-}
-  .Hcontainer{
-    width: 70vw;
-  }
-  .caption{
-   top: 80%;
-   font-size: 0.9em;
-    opacity: 1;
-    color: rgb(227, 222, 216);
-  }
-
-.hmain21s{
-width: 100%;
-}
-.hmain21{
-display: flex;
-flex-direction: column;
-width:96vw;
-}
-
-.hmain3{
-display: flex;
-flex-direction: column;
-width: 95%;
-
-}
-
-.hdsc{
-  width: 100%;
-}
-.hds{
-width: 100%;
-}
-.hmain3{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.hmain31{
-  width: 99%;
-}
-.himg6{
-  width: 90%;
-}
-.hmain322{
-  width: 100%;
-  
-}
-.bcontainer1{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-      }
-      .blcontainer1{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        width: 90%;
-      }
-      .bsimg{
-        margin-top: 45%;
-        width: 95%;
-        height: 250px;
-      }
-      .bdsc{
-        width: 90%;
-      }
-      .bdsc2{
-        width: 90%
-      }
-      .bsh{
-        width: 90%;
-      } 
-      .shorthome{
-        display: flex;
-        width: 90%;
-      }
-
-
-      .container{
-        width: 100vw;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        
-      }
-    .child{
-      width: 100vw;
-    
-    
-    }
-    
-}
-
-
-
-
-/*tab*/
-@media only screen and (min-width: 600px) and (max-width:1000px) {
-  .Adds{
-    display: none;
+  .hdsc{
+    width: 25vw;
   }
   .container{
-    width: 100vw;
-    height: 50vh;
-    display: flex;
-    flex-direction: column;
-    
+    position: absolute;
+    top: 420vh;
   }
-.child{
+  .Adds{
+    position: absolute;
+    top: 250vh;
+  }
+  .hmain2{
+
+  }
+
+
+
+}
+
+
+
+
+/*   media query  for tab */
+
+@media only screen and (max-width:1000px) {
+  body{
+    overflow-x: hidden;
+  }
+  
+.mobileview{
+  display: block;
+}
+.menu{
+  flex-direction: column;
+  height: 40vh;
   width: 100vw;
-
-
+  z-index: 2;
 }
-  
-    /*nav_element  css*/
-        .hdl{
-      top: -52px;
-    }
-    #hr{
-      display: block;
-    }
-    .mobileview{
-      display: block;
-    }
-    
-    .menu{
-      display: flex;
-      flex-direction: column;
-      height: 50%;
-      margin-top: 80px;
-    }
-    .nav_element {
-      border: 2px solid white;
-      width: 100%;
-      text-align: center;
-    }
-  /* */
-    .Outer{
-      display: flex;
-      flex-direction: column;
-      margin-left: 10px;
-      gap: 0px;
-  font-size: 0.9rem;
-      }
-      /* Home css*/ 
-      
-    .bcontainer{
-      width: 90vw;
-      height: 200px;
-    }
-  
-    
-          .himg5{
-            width: 90%;
-          }
-          .dsc1{
-            width: 90%;
-          }
-    .himg1{
-      width: 90vw;
-      height: 50vw;
-    }
-
-    .latesArticle{
-      margin: 0px;
-      width: 100%;
-    }
-    .shorthome{
-      display: flex;
-      gap: 20px;
-      height: 120px;
-    }
-    .bsimg1{
-      width: 15vw;
-      height: 15vh;
-    }
-  
-    .hmain4{
-      display: flex;
-      flex-direction: column;
-      width: 90vw;
-      gap: 10px;
-    }
-    .hmain41{
-      width: 80vw;
-    }
-    .hmain42{
-      width: 80vw;
-    }
-    .hmain43{
-      width: 80vw;
-    }
-    .hstories{
-width: 90vw;
-    }
-  
-   .img{
-    height: 140px;
-    width: 30vw;
-  }  
- 
-  .ds{
-    width: 50vw;
-    
-  }
-
-  .dsbt{
-width: 25vw;
-  }
-  .d{
-    position:absolute;
-    left: 20%;
-    padding-right: 1px;
-   }
-
-  #st{
-   display: none;
-  }
-  #number{
-    display: none;
-  }
-
-  .mdetai{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
-  }
- .like-share{
-  display: none;
- }
- .lg{
-  position: absolute;
-  height: 50px;
- left: 80%;
- }
- .im{
-  width:96vw;
-height: 300px;
-margin-bottom: 20px;
- }
- .dtds{
-  width:96vw;
-  font-size: 1em;
-}
-.avtar1{
-  display: flex;
-  width: 55vw;
-  gap: 30px;
-}
-
-.avc{
-  display: flex;
-  flex-direction: row-reverse;
-}
-.av{
-  display: none;
-}
-.dmg{
-width: 100px;
-height: 100px;
-}
-
-
-
-.himg4{
-  height: 230px;
-  width: 80vw;
-  margin-right: 40px;
-}
-.himg5{
-  height: 230px;
-  width: 40vw;
-  margin-right: 40px;
-}
-.Hmlates{
-  display: flex;
+.hmain1{
   flex-direction: column;
+  width: 100vw;
 }
 
-.Addsabove{
-  position: absolute;
-  top: 635%;
-  left: 60px;
+.caption,.caption1.caption2{
+  visibility: hidden;
 }
-.homelates{
-  display: flex;
+.himg1,.himg2,.himg3h{
+  width: 85vw;
+}
+
+.hmain2,.hmain3{
   flex-direction: column;
-}
-.himg6{
-  display: none;
-
-}
-.b3{
-  margin: 0px;
-  margin-top: 20px;
-}
-.lateststory{
-  position: absolute;
-  top: 915%;
-  left: 60px;
-}
-.mimage{
-  position: relative;
-  left: 0px;
-}
-.dbox{
-  
-  border: none;
-  background-color: none;
-}
-.dOuter2{
-display: flex;
-flex-direction: column;
-gap: 30px;
-}
-/*Home css*/
-.hmain{
-  margin:5px;
-}
-.homemain{
-  margin: 10px;
-}
-.hmain12{
-display: none;
-}
-.home2{
-  display: none;
-}
-.hmain2{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.hmain21s{
-  width: 100%;
-}
-.hmain21{
-  width: 100%;
-}
-.himg3{
-  width: 90%;
-}
-.himg5{
-  width: 90%;
-}
-.b2{
-  width: 100%;
-}
-  .Hcontainer{
-    width: 90vw;
-  }
-  .caption{
-   top: 102%;
-   font-size: 0.8em;
-    opacity: 1;
-    color: rgb(227, 222, 216);
-  }
-
-.hmain21s{
-width: 100%;
-}
-.hmain21{
-display: flex;
-flex-direction: column;
-width:96vw;
-}
-
-.hmain3{
-display: flex;
-flex-direction: column;
-width: 95%;
-
-}
-
-.hdsc{
-  width: 100%;
+  width: 100vw;
 }
 .hds{
-width: 100%;
+  width: 85vw;
 }
-.hmain3{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.hmain31{
-  width: 99%;
-}
-.himg6{
-  width: 90%;
-}
-.hmain322{
-  width: 100%;
+
+.Adds,.Adds1{
+  display: none;
 }
 .bcontainer1{
-  display: flex;
+  width: 80vw;
+}
+.shorthome{
+  width: 80vw;
+}
+
+.hmain322{
+  box-sizing: border-box;
+  padding-left: 5%;
+}
+
+.himg3{
+  width: 90vw;
+}
+
+.hmain2Cp{
   flex-direction: column;
-  width: 100%;
-      }
-      .blcontainer1{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        width: 90%;
-      }
-      .bsimg{
-        width: 95%;
-        height: 250px;
-      }
-      .bdsc{
-        width: 90%;
-      }
-      .bdsc2{
-        width: 90%
-      }
-      .bsh{
-        width: 90%;
-      } 
-      .shorthome{
-        display: flex;
-        width: 90%;
-      }
+  width: 100vw;
+}
+
+.hmain21s{
+  width: 90vw;
+}
+.OuterCp{
+  position: absolute;
+  top: 200%;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+  padding-left: 5%;
+}
+
+.container{
+  position: absolute;
+  top: 580%;
+}
+.dsc1,.ds1{
+  width: 40vw;
+}
+
+
+
+}
+
+
+/* media query for android*/
+
+
+@media only screen and (max-width:550px){
+
+  body{
+    overflow-x: hidden;
+  }
+  .himg1,.himg2,.himg3h{
+    width: 90vw;
+  }
+
+  .menu{
+    width: 100vw;
+  
+  }
+  .ds1{
+    width: 60vw;
+  }
+  .hmain311{
+    margin: 0;
+  }
+  .container{
+    flex-direction: column;
+    width: 100vw;
+    height: 180vh;
+  }
+  .child{
+    width: 80vw;
+   box-sizing: border-box;
+   padding: 2%;
+    background-size: cover;
+  }
+  .bcontainer1{
+    height: 30vh;
+  }
+
+  .himg5{
+    width: 30vw;
+  }
+
+  .img{
+    width: 30vw;
+  }
+  .dsc{
+    width: 50vw;
+  }
+
+  .OuterCp{
+    position: absolute;
+    top: 250%;
+  }
+  
+  .Adds{
+    position: absolute;
+    top: 600%;
+  }
+  .dsc1{
+    width: 40vw;
+  }
+
 }
