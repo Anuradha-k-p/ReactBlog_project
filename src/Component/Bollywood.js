@@ -1,9 +1,11 @@
+
 import React,{useContext} from 'react'
 import {Store} from './ConAPI'
 import '../App.css'
 import { Link } from 'react-router-dom';
 import arrowr from '../img/arrowr.svg'
 import Footer from './Footer';
+import"./Style.css";
 
 function Bollywood() {
   const [bollyData]=useContext(Store);
