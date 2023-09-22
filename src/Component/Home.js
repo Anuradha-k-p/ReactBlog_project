@@ -1,9 +1,11 @@
+
 import React, { useContext } from 'react'
 import { Store } from './ConAPI'
 import arrowr from '../img/arrowr.svg'
 
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
+
 function Home() {
 
   const [homeData]=useContext(Store)
@@ -62,10 +64,10 @@ function Home() {
         return(
           <div className='hmain21'>
              <div   key={home}>
-                <img className='himg3' src={data.image} alt='Not Found'/>
+                <img className='himg3h' src={data.image} alt='Not Found'/>
                 </div>
                 <div className='hdsc'>
-                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <Link to={`/Dynamic/${data.id}`}>  <h3>{data.Heading}</h3></Link>
                 <p className='hds'>{data.description}</p>
                 <p className='ds'>{data.date}</p>
                 </div>
@@ -80,7 +82,7 @@ function Home() {
         return(
           <div>
              <div   key={home}>
-                <img className='himg3' src={data.image} alt='Not Found'/>
+                <img className='himg3h' src={data.image} alt='Not Found'/>
                 </div>
                 <div className='hdsc'>
                 <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
@@ -98,7 +100,7 @@ function Home() {
         return(
           <div>
              <div   key={home}>
-                <img className='himg3' src={data.image} alt='Not Found'/>
+                <img className='himg3h' src={data.image} alt='Not Found'/>
                 </div>
                 <div className='hdsc'>
                 <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
@@ -117,7 +119,7 @@ function Home() {
 
 
 
-<h1 className='b2'>Latest Article</h1>
+<h1 className='b2l'>Latest Article</h1>
 
 <div className='hmain3'>
 <div className='hmain31'> 
