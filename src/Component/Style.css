@@ -1,0 +1,61 @@
+
+@media only screen and (max-width:1300px){
+  
+    .OuterCp{
+        width: 100vw;
+        gap:3.5%;
+        margin: 0;
+        box-sizing: border-box;
+        padding-left: 5%;
+    }
+    .bcontainer1{
+        width: 30vw;
+    }
+    .Adds1{
+        width: 25vw;
+    }
+    .img{
+        width: 15vw;
+    }
+    .container{
+        padding: 0;
+        position: absolute;
+        top: 350%;
+    }
+
+
+}
+
+/* 
+@media only screen and (max-width:950px){
+
+    .OuterCp{
+        position: absolute;
+        top: 170%;
+    }
+    .container{
+        padding: 0;
+        position: absolute;
+        top: 350%;
+    }
+}
+ */
+
+
+
+
+
+
+
+@media only screen and (max-width:550px){
+
+    .menu{
+        width: 100vw;
+    }
+    .bcontainer{
+        width: 80vw;
+    }
+    .blcontainer{
+        width: 80vw;
+    }
+}
