@@ -10,6 +10,24 @@ body{
   left: 80%;
  }
 
+ /*dynamic*/
+.detail-content{
+  width: 60vw;
+  height: 40vh;
+}
+.detail-content-img{
+  width: 60vw;
+  height: 30vh;
+}
+.detail-para{
+  width: 60vw;
+  height: 10vh;
+}
+
+
+
+
+
 /* nav_element cmp css*/
 .hdl{
   display: flex;
@@ -461,7 +479,7 @@ gap: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 60%;
+  top: 30%;
   gap: 50px;
 }
 .avtaricon{
@@ -602,6 +620,21 @@ margin-bottom: 20px;
   width: 30vw;
 }
 
+.back_but{
+  height: 6.5vh;
+  width: 10vh;
+  background-color: gray;
+  color: antiquewhite;
+  position: fixed;
+  top: 2%;
+  left: 2%;
+  z-index: 1;
+}
+
+
+
+
+
 /*   media query  for web */
 @media only screen and (max-width:1300px){
 
@@ -629,11 +662,7 @@ margin-bottom: 20px;
     position: absolute;
     top: 250vh;
   }
-  .hmain2{
-
-  }
-
-
+ 
 
 }
 
@@ -649,7 +678,11 @@ margin-bottom: 20px;
   
 .mobileview{
   display: block;
+  position: absolute;
+  left: 85%;
 }
+
+#bt
 .menu{
   flex-direction: column;
   height: 40vh;
@@ -720,8 +753,6 @@ margin-bottom: 20px;
 .dsc1,.ds1{
   width: 40vw;
 }
-
-
 
 }
 
