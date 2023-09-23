@@ -12,7 +12,7 @@ function Fitness() {
 <h1 className='b2CP'>Fitness</h1>
 <div className='hmain2Cp'>
 <div className='hmain21s'> 
-        {fitnessData.filter((item)=>  (item.id===55)  ).map((data,home)=>{
+        {fitnessData.filter((item)=>  (item.id===44)  ).map((data,home)=>{
         return(
           <div className='hmain21'>
              <div   key={home}>
@@ -30,7 +30,7 @@ function Fitness() {
       }
         </div>
         <div className='hmain21s'> 
-        {fitnessData.filter((item)=> (item.id===58) ).map((data,home)=>{
+        {fitnessData.filter((item)=> (item.id===46) ).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -48,7 +48,26 @@ function Fitness() {
       }
         </div>
         <div className='hmain21s'>
-        {fitnessData.filter((item)=> (item.id===64)).map((data,home)=>{
+        {/* {fitnessData.filter((item)=> (item.id===47)).map((data,home)=>{
+        return(
+          <div>
+             <div   key={home}>
+                <img className='himg3' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='hdsc'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='hds'>{data.description}</p>
+                <p className='ds'>{data.date}</p>
+                </div>
+          </div>
+        )
+      })
+
+      } */}
+
+
+
+{fitnessData.filter((item)=> (item.id===49) ).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -64,6 +83,9 @@ function Fitness() {
       })
 
       }
+
+
+
         </div>
 
 </div>
@@ -134,7 +156,7 @@ function Fitness() {
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
-      {fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===58)).map((data,bolly)=>{
+      {fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===43)).map((data,bolly)=>{
           return(
               <>
             
@@ -154,7 +176,7 @@ function Fitness() {
     }
 
 {
-fitnessData.filter((item)=>item.id===59).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===50).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -175,7 +197,7 @@ fitnessData.filter((item)=>item.id===59).map((data,ind)=>{
 }
       <hr/>
       {
-fitnessData.filter((item)=>item.id===63).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===51).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -196,7 +218,7 @@ fitnessData.filter((item)=>item.id===63).map((data,ind)=>{
 }
       <hr/>
       {
-fitnessData.filter((item)=>item.id===64).map((data,ind)=>{
+fitnessData.filter((item)=>item.id===43).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
