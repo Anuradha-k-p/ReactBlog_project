@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react'
 import { Store } from './ConAPI'
 import '../App.css'
@@ -12,10 +11,10 @@ function Food() {
   <>
 
   
-<h1 className='b2CP'>The Latest</h1>
+<h1 className='b2CP'>Food</h1>
 <div className='hmain2Cp'>
 <div className='hmain21s'> 
-        {foodData.filter((item)=>  (item.id===39)  ).map((data,home)=>{
+        {foodData.filter((item)=>  (item.id===29)  ).map((data,home)=>{
         return(
           <div className='hmain21'>
              <div   key={home}>
@@ -33,7 +32,7 @@ function Food() {
       }
         </div>
         <div className='hmain21s'> 
-        {foodData.filter((item)=> (item.id===50) ).map((data,home)=>{
+        {foodData.filter((item)=> (item.id===34) ).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -51,7 +50,7 @@ function Food() {
       }
         </div>
         <div className='hmain21s'>
-        {foodData.filter((item)=> (item.id===49)).map((data,home)=>{
+        {foodData.filter((item)=> (item.id===41)).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -78,8 +77,8 @@ function Food() {
 
     <div className='OuterCp'>
       <div className='seccnt'>
-        <h1 className='b1'>Food</h1>
-       {foodData.filter((item)=>(item.cat==='Food') && (item.id>=46)).map((data,bolly)=>{
+        <h1 className='b1'>The Letest</h1>
+       {foodData.filter((item)=>(item.cat==='Food') && (item.id>=32)).map((data,bolly)=>{
             return(
                 <>
               
@@ -107,7 +106,7 @@ function Food() {
 
         <div className='seccnt'>
           <h1  className='b1'>Top Posts</h1>
-        {foodData.filter((item)=>(item.cat==='Food') && (item.id===45)).map((data,bolly)=>{
+        {foodData.filter((item)=>(item.cat==='Food') && (item.id===36)).map((data,bolly)=>{
             return(
                 <>
               
@@ -127,7 +126,7 @@ function Food() {
       }
 
 {
-  foodData.filter((item)=>item.id===51).map((data,ind)=>{
+  foodData.filter((item)=>item.id===31).map((data,ind)=>{
     return(
      
       <div className='short' key={ind}>
@@ -149,7 +148,7 @@ function Food() {
 }
         <hr/>
         {
-  foodData.filter((item)=>item.id===49).map((data,ind)=>{
+  foodData.filter((item)=>item.id===35).map((data,ind)=>{
     return(
       <div className='short' key={ind}>
         <div className='bsimg'>
@@ -170,7 +169,7 @@ function Food() {
 }
         <hr/>
         {
-  foodData.filter((item)=>item.id===44).map((data,ind)=>{
+  foodData.filter((item)=>item.id===33).map((data,ind)=>{
     return(
       <div className='short' key={ind}>
         <div className='bsimg'>
