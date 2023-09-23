@@ -1,0 +1,61 @@
+
+.detail-content{
+    width: 60vw;
+    height: 40vh;
+    position: absolute;
+    left: 30%;
+  }
+  .detail-content-img{
+    width: 60vw;
+    height: 30vh;
+  }
+  .detail-para{
+    width: 60vw;
+    height: 10vh;
+  }
+  .person-2{
+    position: absolute;
+  top: 80%;
+  left: 30%;
+  }
+
+  .footer{
+    position: absolute;
+    top: 100%;
+  }
+
+  .more-1{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .more1-data{
+    width: 30vw;
+    height: 25vh;
+  }
+  .dyimg{
+    width: 25vw;
+    height: 20vh;
+  }
+
+  @media only screen and (max-width:1000px){
+    
+.more-1{
+    flex-direction: column;
+    box-sizing: border-box;
+    padding-left: 5%;
+  }
+  .more1-data{
+    width: 90vw;
+    height: 40vh;
+  }
+  
+  .dyimg{
+    width: 85vw;
+    height: 30vh;
+  }
+    
+  }
