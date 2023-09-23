@@ -14,7 +14,7 @@ const Datastore = (props)=>{
       //  cat:"Bollywood"
       // },
     {
-        id:2,
+        id:1,
         Heading:'Akshay had made his entry into Bollywood with the 1991...',
         image:'https://c.saavncdn.com/artists/Akshay_Kumar_003_20230228120453_500x500.jpg',
         description:'Although Akshay had made his entry into Bollywood with the 1991 film Saugandh',
@@ -24,7 +24,7 @@ const Datastore = (props)=>{
         cat:"Bollywood"
      },
    //   {
-   //      id:3,
+   //      id:2,
    //      Heading:' Rocky Aur Rani Kii Prem Kahaani box',
    //      image:"https://images.indianexpress.com/2023/07/rocky-aur-rani-box-office.jpg?w=640",
    //      description:'Director Karan Johar’s Rocky Aur Rani Kii Prem Kahaani debuted in theatres on Friday...',
@@ -34,7 +34,7 @@ const Datastore = (props)=>{
    //      cat:"Bollywood"
    //   },
      {
-        id:4,
+        id:2,
         Heading:'Popular Bollywood actor headed for divorce',
         image:"https://cdn.123telugu.com/content/wp-content/uploads/2023/07/fareed.jpg",
         description:'Fardeen Khan is one actor that needs no introduction. He is the son of the legendary...',
@@ -46,7 +46,7 @@ const Datastore = (props)=>{
         cat:"Bollywood"
      },
      {
-        id:5,
+        id:3,
         Heading:'Sara Ali Khan and Saif Ali Khan come together ',
         image:"https://www.hindustantimes.com/ht-img/img/2023/07/30/550x309/sara_1690732554477_1690732554795.jpg",
         description:"Sara Ali Khan and Saif Ali Khan starred in an ad for the first time as a cop and a convict respectively. Watch video inside.ayed a convict.",
@@ -59,7 +59,7 @@ const Datastore = (props)=>{
         cat:"Bollywood"
      },
      {
-      id:6,
+      id:4,
       Heading:"Pathaan is a 2023 Indian Hindi-language",
       image:"https://upload.wikimedia.org/wikipedia/en/c/c3/Pathaan_film_poster.jpg",
       description:"Pathaan is a 2023 Indian Hindi-language action thriller film directed by Siddharth Anand and written by Shridhar Raghavan and Abbas Tyrewala, ...",
@@ -71,7 +71,7 @@ const Datastore = (props)=>{
       cat:'Bollywood',
      },
      {
-      id:7,
+      id:5,
       Heading:"Amitabh begins shooting for Kaun Banega Crorepati 15",
       image:"https://assets.gqindia.com/photos/62f223ac0d4e31701fb885af/16:9/pass/Here%E2%80%99s-how-much-money-Amitabh-Bachchan-has-charged-for-each-season-of-KBC-over-the-years.jpg",
       description:"took to his blog to share some photos from the set of the game show and said that his opening of the show, where he runs.",
@@ -94,7 +94,7 @@ const Datastore = (props)=>{
 
    //   },
      {
-      id:9,
+      id:6,
       Heading:"In an old interview clip, actor Aamir Khan",
       image:"https://images.indianexpress.com/2023/07/aamir-6.jpg?w=640",
       description:"Ever since its release, Christopher Nolan’s Oppenheimer is generating tremendous buzz in India. The film is touted to be among the best by the auteur ",
@@ -103,9 +103,11 @@ const Datastore = (props)=>{
       fulldescription:"Ever since its release, Christopher Nolan’s Oppenheimer is generating tremendous buzz in India. The film is touted to be among the best by the auteur Ever since its release, Christopher Nolan’s Oppenheimer is generating tremendous buzz in India. The film is touted to be among the best by the auteur Ever since its release, Christopher Nolan’s Oppenheimer is generating tremendous buzz in India. The film is touted to be among the best by the auteur",
       cat:"Bollywood",
      },
+
+
     
    {
-      id:11,
+      id:7,
       Heading:"Anil Kapoor says his Bollywood colleagues",
       image:"https://images.indianexpress.com/2023/07/anil-3.jpg?w=640",
       description:"Anil spoke about always looking forward to Tom’s films, and revealed that some of his Bollywood colleagues...",
@@ -116,7 +118,7 @@ const Datastore = (props)=>{
       cat:"Bollywood",
      },
       {
-      id:12,
+      id:8,
       Heading:"Anurag Kashyap confesses watching Rocky Aur Rani Kii Prem Kahaani",
       image:"https://stat4.bollywoodhungama.in/wp-content/uploads/2023/07/Anurag_Kashyap_RRKPK_KJo-346x260.jpeg",
       description:"Renowned filmmaker Anurag Kashyap has joined the chorus of praise for Karan Johar's latest directorial venture",
@@ -126,7 +128,7 @@ const Datastore = (props)=>{
       cat:"Bollywood",
      },
      {
-      id:13,
+      id:9,
       Heading:"The Xpose",
       image:"https://i.ytimg.com/vi/l_ig8zvxMWA/maxresdefault.jpg",
       description:"This is a dramatic chain of events in the most glamorous ,swinging era of Hindi films... the 1960s. It was a decade when film stars tasted success and carried their larger than life screen image...",
@@ -136,7 +138,7 @@ const Datastore = (props)=>{
       cat:"Bollywood", 
    },
      {
-      id:14,
+      id:10,
       Heading:"HRITHIK ROSHAN",
       image:"https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcSQ9mqxisnWgLZXvvoEx-H7R5CxEl6H1yyikOWfow7-878RnF43fpxz3HAP1ewTQHUtKNKSamqzxLtcT9Y",
       description:"NewsAboutHrithik Roshan, He is often cited as one of most attractive male celebrities in the country. Hrithik has won six Filmfare awards. ",
@@ -148,7 +150,7 @@ const Datastore = (props)=>{
       cat:"Bollywood",
      },
      {
-      id:15,
+      id:11,
       Heading:"Avatar: The War of Water",
       image:
       "https://m.media-amazon.com/images/M/MV5BYjhiNjBlODctY2ZiOC00YjVlLWFlNzAtNTVhNzM1YjI1NzMxXkEyXkFqcGdeQXVyMjQxNTE1MDA@._V1_.jpg",
@@ -160,7 +162,7 @@ const Datastore = (props)=>{
       cat:"Hollywood"
      },
      {
-      id:16,
+      id:12,
       Heading:"Tom Holland Recalled Being Cast ",
       image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0ncw0lyZIAyFf1Njks3MsskMONMYxtqCvw&usqp=CAU",
       description:"Recalling his reaction to reading the news – and that of his family, Tom Holland continued, My poor dog Tessa was terrified. And Harry who is pretty savvy with technology and stuff’",
@@ -170,7 +172,7 @@ const Datastore = (props)=>{
       cat:"Hollywood",
      },
      {
-      id:17,
+      id:13,
       Heading:"Captain Jack Sparrow",
       image:"https://c4.wallpaperflare.com/wallpaper/775/486/326/pirates-of-the-caribbean-pirates-of-the-caribbean-on-stranger-tides-jack-sparrow-johnny-depp-wallpaper-preview.jpg",
       description:"Captain Jack Sparrow is a fictional character and the main protagonist of the Pirates of the Caribbean film series. The character was created by screenwriters Ted Elliott and Terry Rossio",
@@ -180,7 +182,7 @@ const Datastore = (props)=>{
       cat:"Hollywood",
      },
      {
-      id:18,
+      id:14,
       Heading:"Leonardo Wilhelm DiCaprio ",
       image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Leonardo_Dicaprio_Cannes_2019.jpg/220px-Leonardo_Dicaprio_Cannes_2019.jpg",
       description:"Born in Los Angeles, DiCaprio began his career in the late 1980s by appearing in television commercials. In the early 1990s, he had recurring roles in various television shows,",
@@ -201,7 +203,7 @@ const Datastore = (props)=>{
    //    cat:"Hollywood",
    //   },
    //   {
-   //    id:20,
+   //    id:15,
    //    Heading:"Fast X becomes Hollywood’s first film to join the Rs 100 crore club",
    //    image:"https://static.toiimg.com/thumb/msid-100627160,imgsize-54856,width-400,resizemode-4/100627160.jpg",
    //    description:"Fast X, the tenth installment in the Fast and Furious Diesel, has earned impressive Rs.105 crore in its first ten days in India, making it the first Hollywood",
@@ -211,7 +213,7 @@ const Datastore = (props)=>{
    //    cat:"Hollywood"
    //   },
    //   {
-   //    id:21,
+   //    id:16,
    //    Heading:"Thor: Love and Thunder",
    //    image:"https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRHXV5at6mvLIF852fvIA5jeUi6bVYs8swuCPUCRWdRxWp0sr5Q",
    //    description:"Thor: Love and Thunder is a 2022 superhero film, based on the Marvel Comics superhero of the same name. The film is a sequel to Thor, Thor: The Dark World, Thor: Ragnarok ",
@@ -221,7 +223,7 @@ const Datastore = (props)=>{
    //    cat:"Hollywood"
    //   },
      {
-      id:22,
+      id:15,
       Heading:"James Cameron: Diving Deep, Dredging Up Titanic",
       image:"https://media.npr.org/assets/img/2012/03/29/titanic_custom-fc6a03aedd8e562d780ecf9b9a8a947d4dcbf163-s800-c85.webp",
       description:"They don't call it the Challenger Deep for nothing,Cameron tells NPR's Renee Montagne. Because deep places that, together, form the last unexplored frontier on our planet.",
@@ -231,7 +233,7 @@ const Datastore = (props)=>{
       cat:"Hollywood"
      },
      {
-      id:23,
+      id:16,
       Heading:"Every Daniel Craig James Bond movie",
       image:"https://images.immediate.co.uk/production/volatile/sites/3/2021/09/daniel-craig-007.jpg-303a730.png?quality=90&webp=true&resize=620,414",
       description:"Daniel Craig's era as James Bond 007 is officially  while we wait for news on who his replacement might be, we can reflect on his tenure as Ian Fleming's spy, which radically changed ",
@@ -241,7 +243,7 @@ const Datastore = (props)=>{
       cat:"Hollywood"
       },
       {
-         id:24,
+         id:17,
          Heading:"Avengers Endgame",
          image:"https://images.hindustantimes.com/rf/image_size_960x540/HT/p2/2019/04/13/Pictures/_a6416322-5dea-11e9-aa5c-e004eddcd1be.jpg",
          description:"Marvel screened 20 minutes of footage from the hotly anticipated Avengers: Endgame, and early reactions claim that the film will be ‘mind-blowing’ and a ‘tearjerker’",
@@ -251,7 +253,7 @@ const Datastore = (props)=>{
          cat:"Hollywood"
         }, 
          {
-         id:25,
+         id:18,
          Heading:"Hollow Man",
          image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYzWWzlIfEpxredPKWlQBRXUPOv68HAh2efD2M3KEIgfx3NU7m",
          description:"Hollow Man is a 2000 American science fiction horror film directed by Paul Verhoeven, written by Andrew W. Marlowe, and starring Elisabeth Shue, Josh Brolin, Kim Dickens, Joey Slotnick and William Devane.",
@@ -261,7 +263,7 @@ const Datastore = (props)=>{
          cat:"Hollywood"
         },
         {
-         id:26,
+         id:19,
          Heading:"The Way Back (2010)",
          image:"https://filmfare.wwmindia.com/content/2021/jun/tophollywoodadventuresmoviesoflastdecade91623856201.jpg",
          description:"Cinematographers relish going out of the studios and setting their cameras in the great unknowns, capturing the wild haunting beauty of the outdoors.in essence, becomes the central character in many such films",
@@ -271,7 +273,7 @@ const Datastore = (props)=>{
          cat:"Hollywood"
         },
         {
-         id:27,
+         id:20,
          Heading:"Artificial Intelligence",
          image:"https://cdn.pixabay.com/photo/2019/08/06/22/48/artificial-intelligence-4389372_1280.jpg",
         description:"The digital revolution has already changed how people live, work, and communicate. And it’s only just getting started. But the same technologies that have the potential to help billions of people live happier",
@@ -281,7 +283,7 @@ const Datastore = (props)=>{
         cat:"Technology"  
       },
       {
-         id:28,
+         id:21,
          Heading:"5G Technology",
          image:"https://etimg.etb2bimg.com/photo/93418165.cms",
          description:"5G is the 5th generation mobile network. It is a new global wireless standard after 1G, 2G, 3G, and 4G networks. 5G enables a new kind of network that is designed to connect and everything together and devices.",      
@@ -301,7 +303,7 @@ const Datastore = (props)=>{
       //    cat:"Technology",
       // },
       {
-         id:30,
+         id:22,
          Heading:"Cyber security ",
          image:"https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y3liZXJzZWN1cml0eXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
          description:"Computer security, cyber security, digital security or information technology security is the protection of computer systems and networks from attack by malicious actors that may result in unauthorized .",
@@ -314,7 +316,7 @@ const Datastore = (props)=>{
          cat:"Technology"
       },
       {
-         id:31,
+         id:23,
          Heading:"IOS Technology",
          image:"https://images.livemint.com/img/2020/06/22/600x338/iOS_1592850862096_1592850869734.jpg",
          description:"iOS is a mobile operating system developed by Apple Inc. exclusively for its hardware. It is the operating system that powers many of the company's mobile devices, including the iPhone;",
@@ -324,7 +326,7 @@ const Datastore = (props)=>{
          cat:"Technology"
       },  
       {
-         id:32,
+         id:24,
          Heading:"computer",
          image:"https://cdn.britannica.com/61/74061-050-47B62C0E/computer-peripherals-images-laser-printer-inkjet-layout.jpg",
          description:"A computer is a machine that can store and process information. Most computers rely on a binary system, which uses two variables, 0 and 1, to complete tasks such as storing data, calculating algorithms",
@@ -344,7 +346,7 @@ const Datastore = (props)=>{
       //    cat:"Technology"
       // },
       {
-         id:34,
+         id:25,
          Heading:"Computing",
          image:"https://www.techrepublic.com/wp-content/uploads/2022/09/tr-cloud-computing-use-cases.jpeg",
          description:"Computing is any goal-oriented activity requiring, benefiting from, or creating computing machinery. It includes the study and experimentation of algorithmic processes",
@@ -354,7 +356,7 @@ const Datastore = (props)=>{
          cat:"Technology"
       },
       // {
-      //    id:35,
+      //    id:26,
       //    Heading:"Sensor technology",
       //    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLghT9l_Y730o5zT5SU8VoihrGTXoTYeUCokCGLAhCdak3Rv2yxAIHVzPSai5CtrLco0U&usqp=CAU",
       //    description:"Sensors, sometimes referred to as ”transducers,” help us interact with the world around us through an electrical or a mechanical device. The technology measures or detects some property of the environment",
@@ -364,7 +366,7 @@ const Datastore = (props)=>{
       //    cat:"Technology"
       // },
       {
-         id:36,
+         id:26,
          Heading:"Voice technology",
          image:"https://d25r4xglgvpsos.cloudfront.net/wp/wp-content/uploads/2020/03/26005140/thumbnail-a7a4c7ce50d1c80ee996ba8fd0a974bb-1568x1045.jpeg",
          description:"Voice or speaker recognition technology is the ability of a digital device to receive, recognize, and interpret spoken commands---and carry out such commands using sound input as an interface.",
@@ -374,7 +376,7 @@ const Datastore = (props)=>{
          cat:"Technology"
       },
       // {
-      //    id:37,
+      //    id:27,
       //    Heading:"Television (TV)",
       //    image:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Cptvdisplay.jpg/300px-Cptvdisplay.jpg",
       //    description:"Television (TV) is a telecommunication medium for transmitting moving images and sound. The term can refer to a television set.",
@@ -384,7 +386,7 @@ const Datastore = (props)=>{
       //    cat:"Technology"
       // },
       {
-         id:38,
+         id:27,
          Heading:"scanner technology",
          image:"https://recfaces.com/wp-content/uploads/2020/12/snimok-ekrana-2020-12-03-150858-830x500.png",
          description:"The basic principle of a scanner is to analyze an image and process it in some way. Image and text capture (optical character recognition or OCR) allow you to save information to a file on your computer.",
@@ -394,7 +396,7 @@ const Datastore = (props)=>{
          cat:"Technology"
       },
       {
-         id:39,
+         id:28,
          Heading:"Easy cheese, leek and potato puff pie",
          image:"https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/easy_cheese_leek_and_98782_16x9.jpg",
          description:"All the flavours of leek and potato soup but with added cheese and pastry! This leek, potato and cheese puff pie is the perfect budget winter warmer.",
@@ -404,7 +406,7 @@ const Datastore = (props)=>{
          cat:"Food",
       },
       {
-         id:40,
+         id:29,
          Heading:" Kung Pao Chicken",
          image:"https://images.chinahighlights.com/allpicture/2019/11/31acb7b302ec4b48b17443ed_cut_750x400_39.webp",
          description:"Kung Pao Chicken is a famous Sichuan-style specialty, popular with both Chinese and foreigners. The major ingredients are diced chicken, dried chili, cucumber, and fried peanuts (or cashews).",
@@ -414,7 +416,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:41,
+         id:30,
          Heading:"Puri",
          image:"https://cdn.tasteatlas.com/Images/Dishes/e49c7f42cade4444a148ede9c47d0a46.jpg?mw=1300",
          description:"Puri is an unleavened, fried Indian bread made with water, finer or coarser wheat flour, and occasionally cumin seeds. The dough is rolled into flat round shapes and fried in copious amounts of vegetable oil or ghee",
@@ -424,7 +426,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:42,
+         id:31,
          Heading:"Pulihora",
          image:"https://cdn.tasteatlas.com//images/dishes/2a00c116070d46a7a8dd91c0e086f76d.jpg?w=905&h=510",
          description:"Pulihora is a popular south Indian dish that can easily be found in the states of Andhra Pradesh, Tamil Nadu, and Karnataka. It consists of rice,coriander, ginger, and green chiles. Additionally, ",
@@ -434,7 +436,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:43,
+         id:32,
          Heading:"Malai",
          image:"https://cdn.tasteatlas.com//images/ingredients/1ff8aa710cb6476491816569c639f99d.jpg?w=905&h=510",
          description:"he thick, mild malai is a homemade dairy product made with heated milk which is refrigerated until a thick layer of fat is created on top. Yellow in color, malai is usually skimmed off by hands, stored in containers,",
@@ -444,7 +446,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:44,
+         id:33,
          Heading:"Shahi paneer",
          image:"https://cdn.tasteatlas.com//images/dishes/ceff65c140064d6285fc3814534a349b.jpg?w=905&h=510",
          description:"Originating from India's Moghul cuisine, shahi paneer is a cheese curry that is prepared with paneer cheese, onions, almond paste, and a rich, spicy tomato-cream sauce.such as naan, roti, or puri.",
@@ -454,7 +456,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:45,
+         id:34,
          Heading:"Masala dosa",
          image:"https://cdn.tasteatlas.com//Images/Dishes/ba7bab747c7e41769dbc895a84626a23.jpg?w=905&h=510",
          description:"A traditional southern Indian dish known as masala dosa is popular throughout the country, made from a batter of soaked rice and lentils that is baked into a thin pancake and  onions, and mustard seeds.",
@@ -464,7 +466,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:46,
+         id:35,
          Heading:"Gulam Jamun",
          image:"https://cdn.tasteatlas.com//Images/Dishes/23fba80da08c46ceba5a99a5b1f1f200.jpg?w=905&h=510",
          description:"Gulab jamun is a dessert based on milk solids that are kneaded into a dough, shaped into balls, and deep-fried in ghee. The balls then get soaked in a sugary concoction flavored with saffron, green cardamom, and rose water",
@@ -474,7 +476,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:47,
+         id:36,
          Heading:"Pav bhaji",
          image:"https://cdn.tasteatlas.com//Images/Dishes/f77866f0f5474fc0b41d316f885edcc3.jpg?w=905&h=510",
          description:"Pav bhaji is a popular street snack originating from the Indian state of Maharashtra. It consists of a vegetable curry that is typically served with a soft bread roll known as pav.",
@@ -484,7 +486,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:48,
+         id:37,
          Heading:"Palak paneer",
          image:"https://cdn.tasteatlas.com//Images/Dishes/4ecba690cc0b47809d43d70c7a6b3a39.jpg?w=905&h=510",
          description:"Palak paneer has roots in the Punjabi region, but there are also other variations of the dish throughout India. It is a highly nutritious meal that can be consumed either for breakfast.",
@@ -494,7 +496,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:49,
+         id:38,
          Heading:"Rajma",
          image:"https://cdn.tasteatlas.com//Images/Dishes/25ab742da91d49b18b1a7f8a9a3f1b18.jpg?w=905&h=510",
          description:"Rajma is one of the most popular vegetarian dishes of North India. It consists of red kidney beans which are stewed in a rich gravy combined with numerous spices. The dish is usually prepared for festivities and special occasions",
@@ -504,7 +506,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:50,
+         id:39,
          Heading:"Upma",
          image:"https://cdn.tasteatlas.com//Images/Dishes/e4e3193046014f5bb9d0b6dc838d0f53.jpg?w=905&h=510",
          description:"Upma is a wholesome Indian dish made with dry semolina or rice flour, cooked into a thick porridge. Traditionally served hot for breakfast, its taste is slightly bland, so various nuts, beans",
@@ -514,7 +516,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:51,
+         id:40,
          Heading:"Pizza Recipe",
          image:"https://assets.tmecosys.com/image/upload/t_web600x528/img/recipe/ras/Assets/62c59f6365a259b03da440de3973f201/Derivates/668cba6648888c61d249c0a5d9651157a4ce3793.jpg",
          description:"Be it any occasion, we all love to eat pizza at home. But, learn all about making a delicious pizza at home with this easy recipe that will take you through detailed steps some tips that will guide you in preparing a Pizza at home",
@@ -524,7 +526,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:52,
+         id:41,
          Heading:"Big Mac MCDONALD'S",
          image:"https://fastfood.theringer.com/img/items/16.jpg",
          description:"HALEY O'SHAUGHNESSY: What does it take to really make a relationship work? Love, of course. Compassion. Trust. Sesame seed buns. Kindness. Two hamburgers.",
@@ -534,7 +536,7 @@ const Datastore = (props)=>{
          cat:"Food"
       },
       {
-         id:53,
+         id:42,
          Heading:"Honey BBQ Chikken Sandwitch",
          image:"https://fastfood.theringer.com/img/items/37.jpg",
          description:"It’s the James Harden of fast-food sandwiches. The dynamic blend of flavors and textures makes for a sublime experience. It's so damn good the nutrition  much like Harden's defense.",
@@ -555,7 +557,7 @@ const Datastore = (props)=>{
       //    cat:"Fitness"
       // },
       {
-         id:55,
+         id:43,
          Heading:"Swinging with kettlebells",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/14119/9234d464-594b-468a-b9ac-c37e16c6af3a.jpg",
          description:"Stand with your feet shoulder width apart and knees slightly bent. Hold a kettlebell with both hands and an overhand grip, arms extended down in front of you so the kettlebell hangs between your legs.",
@@ -565,7 +567,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:56,
+         id:44,
          Heading:"Move of the month: Pull-down",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/14100/64cdb23e-cd49-4a5f-a378-4136cbf6a115.jpg",
          description:"Using stretchy bands  can be a good way to ease into strength training. Pull-downs target the muscles of the middle and lower back and the front of the upper arms.",
@@ -575,7 +577,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:57,
+         id:45,
          Heading:"Move of the month: Stationary lunge",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13975/5c3ad907-bfa4-4fa7-a9fa-899fb8c644b8.jpg",
          description:"Lunges, which strengthen the entire lower body, are a good example of a functional exercise. These exercises mimic everyday actions thereby improving physical functioning throughout",
@@ -586,7 +588,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:58,
+         id:46,
          Heading:"Take a step back",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13980/6d869393-eab6-47c6-ad01-cf67b706bfba.jpg",
          description:"Lunges are one of the best exercises for improving leg strength and balance. Most of the time, they're done with a forward motion, but don't neglect the power of going backward.",
@@ -596,7 +598,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:59,
+         id:47,
          Heading:"Build better biceps",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13919/944b8686-9cfc-4de2-958a-8599b33beddb.jpg",
          description:"Stand tall with your feet about shoulder-width apart, chest lifted, and shoulders back and down. Hold dumbbells down at your sides with your palms facing inward.",
@@ -606,7 +608,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       // {
-      //    id:60,
+      //    id:,
       //    Heading:"Does running cause arthritis?",
       //    image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13852/2434e7c0-3082-4e6a-9556-3e36e6f38b4c.jpg",
       //    description:"It's easy to blame running when a person who runs regularly develops arthritis. But that blame may be misguided. Here's a look at the latest research on the topic.",
@@ -615,18 +617,18 @@ const Datastore = (props)=>{
       //    fulldescription:`Knee and joint pain may be common complaints among runners, but chances are slim that arthritis is the culprit. In fact, multiple studies have shown that regular running strengthens the joints and actually protects against development of osteoarthritis later in life.`,
       //    cat:"Fitness"
       // },
-      // {
-      //    id:61,
-      //    Heading:"Opposite arm and leg raise",
-      //    image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13595/d63f5c21-4aa1-4743-8124-15a17b6cd48c.jpg",
-      //    description:"The core muscles include those of the abdomen, lower back, front of hips, and spine. Many popular sports such as cycling, golf, tennis, and swimming depend on a stable, flexible core.",
-      //    name:'Swapnali Pawar',
-      //    date:"20 Sep 2023",
-      //    fulldescription:`Movement: Extend your left leg off the floor behind you while reaching out in front of you with your right arm. Keeping your hips and shoulders squared, try to bring the extended leg and arm parallel to the floor. Hold. Return to the starting position, then repeat with your right leg and left arm.`,
-      //    cat:"Fitness"
-      // },
       {
-         id:62,
+         id:47,
+         Heading:"Opposite arm and leg raise",
+         image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13595/d63f5c21-4aa1-4743-8124-15a17b6cd48c.jpg",
+         description:"The core muscles include those of the abdomen, lower back, front of hips, and spine. Many popular sports such as cycling, golf, tennis, and swimming depend on a stable, flexible core.",
+         name:'Swapnali Pawar',
+         date:"20 Sep 2023",
+         fulldescription:`Movement: Extend your left leg off the floor behind you while reaching out in front of you with your right arm. Keeping your hips and shoulders squared, try to bring the extended leg and arm parallel to the floor. Hold. Return to the starting position, then repeat with your right leg and left arm.`,
+         cat:"Fitness"
+      },
+      {
+         id:48,
          Heading:"Adding yoga to aerobic exercise may help lower high blood pressure",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13573/66c60680-18fd-46dd-af5e-15774aaefc2f.jpg",
          description:"yoga to regular exercise sessions can help people lower their high blood pressure more than just doing exercise and basic muscle stretching.",
@@ -636,7 +638,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:63,
+         id:49,
          Heading:"Age and muscle loss",
          image:"http://content.health.harvard.edu/wp-content/uploads/2023/02/560b6d05-cb1d-4889-ad14-e51f4ea45b82.jpg",
          description:"As the years pass, muscle mass in the body generally shrinks, and strength and power decline. The pro­cess begins earlier than you might think.",
@@ -646,7 +648,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:64,
+         id:50,
          Heading:"Arm curls",
          image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13457/0d1070c6-3348-48e0-839e-1302b5cf9d92.jpg",
          description:"Slowly bend your elbows, lifting the dumbbells toward your shoulders. Hold. Slowly lower the dumbbells, straightening your arms back to the starting position. Repeat this movement to complete 8 to 12 curls.",
@@ -656,7 +658,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       // {
-      //    id:65,
+      //    id:51,
       //    Heading:"Reclaim your pre-pandemic function",
       //    image:"https://domf5oio6qrcr.cloudfront.net/medialibrary/13380/66b57c7d-1556-4d75-8948-920997860358.jpg",
       //    description:"We’ve moved past some of the immediate effects of the pandemic, with many people returning to their previous physical activities.",
@@ -666,7 +668,7 @@ const Datastore = (props)=>{
       //    cat:"Fitness"
       // },
       {
-         id:66,
+         id:51,
          Heading:"Stronger body, healthier heart",
          image:"http://content.health.harvard.edu/wp-content/uploads/2023/07/e9ec22b0-a1ee-4abf-989c-1f482ab680fb.jpg",
          description:"if you're in the habit of doing a 20- to 30-minute brisk walk or other moderate exercise most days of the week, that's fantastic.",
@@ -676,7 +678,7 @@ const Datastore = (props)=>{
          cat:"Fitness"
       },
       {
-         id:67,
+         id:52,
          Heading:"Koi... Mil Gaya",
          image:"https://static.toiimg.com/thumb/msid-102335118,imgsize-31508,width-400,resizemode-4/102335118.jpg",
          description:"Rohit, a youth with a mental disability, befriends an alien. When the police learn about the alien, they try to capture it while Rohit tries his best to protect his new friend.",
@@ -686,7 +688,7 @@ const Datastore = (props)=>{
          cat:"Bollywood"
       },
       {
-         id:68,
+         id:53,
          Heading:"The 300 Spartans",
          image:"https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8kJsApNu8s71yHtLsa5u-lglosO3h6yssffl4sX46E20M8JHV",
          description:"The Battle of Thermopylae was fought in 480 BC between the Achaemenid Persian Empire under Xerxes I and an alliance of Greek city-states led by Sparta under Leonidas I. Lasting over the course of three days",
@@ -696,7 +698,7 @@ const Datastore = (props)=>{
          cat:"Hollywood"
       },
       {
-         id:69,
+         id:54,
          Heading:"Planet of the Apes",
          image:"https://resizing.flixster.com/thVHnFB_2er7s1EK6sEND49GubQ=/206x305/v2/https://flxt.tmsimg.com/assets/p2095_p_v12_ak.jpg",
          description:"Beneath the Planet of the Apes is a 1970 American science fiction film directed by Ted Post from a screenplay by Paul Dehn, based on a story by Dehn and Mort Abrahams. The film is the sequel to Planet of the Apes.",
@@ -706,7 +708,7 @@ const Datastore = (props)=>{
          cat:"Hollywood",
       },
       {
-         id:70,
+         id:55,
          Heading:"Batman",
          image:"http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQavfSfyOVYO54wkFq1cV0yguHfZSUiYwmiGvtdlDDav_wKZYsyy9NPBk952R2zXNSs",
          description:"Batman is a superhero appearing in American comic books published by DC Comics. The character was created by artist Bob Kane and writer Bill Finger, and debuted in the 27th issue of the comic book",
