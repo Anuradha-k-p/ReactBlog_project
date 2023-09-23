@@ -1,4 +1,3 @@
-
 import React, { useContext } from 'react'
 import { Store } from './ConAPI'
 import arrowr from '../img/arrowr.svg'
@@ -18,7 +17,7 @@ function Home() {
 <div className='hmain1'>
 <div className='hmain11'>
 {
-        homeData.filter((item)=>(item.cat==='Hollywood') && (item.id===17)).map((data,tech)=>{
+        homeData.filter((item)=>(item.cat==='Hollywood') && (item.id===13)).map((data,tech)=>{
             return(
                 <>
                 <div className='Hcontainer' key={tech}>   
@@ -34,13 +33,13 @@ function Home() {
       }
 </div>
 <div className='hmain12'>
-{homeData.filter((item)=>((item.id===34)  ||  (item.id===44) )).map((data,tech)=>{
+{homeData.filter((item)=>((item.id===25)  ||  (item.id===33) )).map((data,tech)=>{
             return(
               
                 <div className='Hcontainer' key={tech}>
                 <img className='himg2' src={data.image} alt='Not Found'/>
                 <div className='caption1'>
-                <h3>Computer Technology
+                <h3>Computer<br/> Technology
                 </h3>
                 <p>{data.date}</p>
                 </div>
@@ -60,14 +59,14 @@ function Home() {
 <h1 className='b2'>The Latest</h1>
 <div className='hmain2'>
 <div className='hmain21s'> 
-        {homeData.filter((item)=>  (item.id===63)  ).map((data,home)=>{
+        {homeData.filter((item)=>  (item.id===40)  ).map((data,home)=>{
         return(
           <div className='hmain21'>
              <div   key={home}>
                 <img className='himg3h' src={data.image} alt='Not Found'/>
                 </div>
                 <div className='hdsc'>
-                <Link to={`/Dynamic/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
                 <p className='hds'>{data.description}</p>
                 <p className='ds'>{data.date}</p>
                 </div>
@@ -126,7 +125,50 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 
-{homeData.filter((item)=>((item.cat==='Hollywood') && (item.id>=25))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Technology') && (item.id>=26))).map((data,holly)=>{
+            return(
+                <>
+              
+                <div className='bcontainer1' key={holly}>
+                  <div >
+                <img className='himg5' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='dsc1'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='ds1'>{data.description}</p>
+                </div>
+                </div>
+                </>
+            )
+        })
+      }
+  
+</div>
+
+{/* 
+{homeData.filter((item)=>((item.cat==='Hollywood') && (item.id>=53))).map((data,holly)=>{
+            return(
+                <>
+              
+                <div className='bcontainer1' key={holly}>
+                  <div >
+                <img className='himg5' src={data.image} alt='Not Found'/>
+                </div>
+                <div className='dsc1'>
+                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
+                <p className='ds1'>{data.description}</p>
+                </div>
+                </div>
+                </>
+            )
+        })
+      }
+   */}
+
+
+<div className='hmain311 latesArticle'> 
+
+{homeData.filter((item)=>((item.cat==='Food') && (item.id>=41))).map((data,holly)=>{
             return(
                 <>
               
@@ -149,30 +191,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 
-{homeData.filter((item)=>((item.cat==='Food') && (item.id>=53))).map((data,holly)=>{
-            return(
-                <>
-              
-                <div className='bcontainer1' key={holly}>
-                  <div >
-                <img className='himg5' src={data.image} alt='Not Found'/>
-                </div>
-                <div className='dsc1'>
-                <Link to={`/Detail/${data.id}`}>  <h3>{data.Heading}</h3></Link>
-                <p className='ds1'>{data.description}</p>
-                </div>
-                </div>
-                </>
-            )
-        })
-      }
-  
-</div>
-
-
-<div className='hmain311 latesArticle'> 
-
-{homeData.filter((item)=>((item.cat==='Fitness') && (item.id>=67))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Fitness') && (item.id>=50))).map((data,holly)=>{
             return(
                 <>
               
@@ -196,7 +215,7 @@ function Home() {
 
 <div className='hmain311 latesArticle'> 
 <p><img  src={arrowr} alt='Not Found'/><span className='dm'> Load More</span></p>  
-{homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=15))).map((data,holly)=>{
+{homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=52))).map((data,holly)=>{
             return(
                 <>
               
@@ -299,7 +318,7 @@ function Home() {
     <hr className='hrhome'/>
     <div>
     {
-  homeData.filter((item)=>item.id===62).map((data,ind)=>{
+  homeData.filter((item)=>item.id===46).map((data,ind)=>{
     return(
      
       <div className='shorthome' key={ind}>
