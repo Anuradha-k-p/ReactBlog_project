@@ -14,7 +14,7 @@ const [techData]=useContext(Store)
 <h1 className='b2CP'>Technology</h1>
 <div className='hmain2Cp'>
 <div className='hmain21s'> 
-        {techData.filter((item)=>  (item.id===38)  ).map((data,home)=>{
+        {techData.filter((item)=>  (item.id===20)  ).map((data,home)=>{
         return(
           <div className='hmain21'>
              <div   key={home}>
@@ -32,7 +32,7 @@ const [techData]=useContext(Store)
       }
         </div>
         <div className='hmain21s'> 
-        {techData.filter((item)=> (item.id===30) ).map((data,home)=>{
+        {techData.filter((item)=> (item.id===26) ).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -50,7 +50,7 @@ const [techData]=useContext(Store)
       }
         </div>
         <div className='hmain21s'>
-        {techData.filter((item)=> (item.id===36)).map((data,home)=>{
+        {techData.filter((item)=> (item.id===23)).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -101,7 +101,7 @@ const [techData]=useContext(Store)
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
-      {techData.filter((item)=>(item.cat==='Technology') && (item.id===30)).map((data,bolly)=>{
+      {techData.filter((item)=>(item.cat==='Technology') && (item.id===24)).map((data,bolly)=>{
           return(
               <>
             
@@ -142,7 +142,7 @@ techData.filter((item)=>item.id===27).map((data,ind)=>{
 }
       <hr/>
       {
-techData.filter((item)=>item.id===28).map((data,ind)=>{
+techData.filter((item)=>item.id===21).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -163,7 +163,7 @@ techData.filter((item)=>item.id===28).map((data,ind)=>{
 }
       <hr/>
       {
-techData.filter((item)=>item.id===34).map((data,ind)=>{
+techData.filter((item)=>item.id===25).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
