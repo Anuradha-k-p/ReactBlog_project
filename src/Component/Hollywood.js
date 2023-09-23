@@ -13,7 +13,7 @@ function Hollywood() {
 <h1 className='b2CP'>Hollywood</h1>
 <div className='hmain2Cp' >
 <div className='hmain21s' > 
-        {hollyData.filter((item)=>  (item.id===68)  ).map((data,home)=>{
+        {hollyData.filter((item)=>  (item.id===11)  ).map((data,home)=>{
         return(
           <div className='hmain21'>
              <div   key={home}>
@@ -31,7 +31,7 @@ function Hollywood() {
       }
         </div>
         <div className='hmain21s'> 
-        {hollyData.filter((item)=> (item.id===69) ).map((data,home)=>{
+        {hollyData.filter((item)=> (item.id===14) ).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -49,7 +49,7 @@ function Hollywood() {
       }
         </div>
         <div className='hmain21s'>
-        {hollyData.filter((item)=> (item.id===70)).map((data,home)=>{
+        {hollyData.filter((item)=> (item.id===17)).map((data,home)=>{
         return(
           <div>
              <div   key={home}>
@@ -75,6 +75,29 @@ function Hollywood() {
     <div className='seccnt'>
       <h1 className='b1'>Letest</h1>
      {hollyData.filter((item)=>(item.cat==='Hollywood') && (item.id>=19)).map((data,bolly)=>{
+          return(
+              <>
+            
+              <div className='bcontainer' key={bolly}>
+                <div >
+              <img className='img' src={data.image} alt='Not Found'/>
+              </div>
+              <div className='dsc'>
+              <Link to={`/Detail/${data.id}`}> <h3>{data.Heading}</h3></Link>
+              <p className='ds'>{data.description}</p>
+              <p className='ds'>{data.date}</p>
+              
+              </div>
+              
+              </div>
+              <hr className='hr'/>
+              </>
+               
+          )
+      })
+
+      } 
+      {hollyData.filter((item)=>(item.cat==='Hollywood') && (item.id>=53)).map((data,bolly)=>{
           return(
               <>
             
@@ -142,7 +165,7 @@ hollyData.filter((item)=>item.id===17).map((data,ind)=>{
 }
       <hr/>
       {
-hollyData.filter((item)=>item.id===23).map((data,ind)=>{
+hollyData.filter((item)=>item.id===15).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
@@ -163,7 +186,7 @@ hollyData.filter((item)=>item.id===23).map((data,ind)=>{
 }
       <hr/>
       {
-hollyData.filter((item)=>item.id===70).map((data,ind)=>{
+hollyData.filter((item)=>item.id===12).map((data,ind)=>{
   return(
     <div className='short' key={ind}>
       <div className='bsimg'>
