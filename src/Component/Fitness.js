@@ -246,7 +246,9 @@ Advertisement
       </div>
       
   </div>
-  <Footer/>
+  <div className='compo-footer'>
+ <Footer/>
+ </div>
   </div>
   )
 }
