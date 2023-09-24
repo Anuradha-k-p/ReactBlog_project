@@ -185,13 +185,15 @@ techData.filter((item)=>item.id===25).map((data,ind)=>{
 <hr/>
      
 
-<div className='Adds1'>
+<div className='Adds2'>
 Advertisement
 </div>
 
       </div>
   </div>
-      <Footer/>
+  <div className='compo-footer'>
+ <Footer/>
+ </div>
   </>
   )
 }
