@@ -123,7 +123,7 @@ function Home() {
 <div className='hmain3'>
 <div className='hmain31'> 
 
-<div className='hmain311 latesArticle'> 
+<div className='latest-div'> 
 
 {homeData.filter((item)=>((item.cat==='Technology') && (item.id>=26))).map((data,holly)=>{
             return(
@@ -166,7 +166,7 @@ function Home() {
    */}
 
 
-<div className='hmain311 latesArticle'> 
+<div className='latest-div'> 
 
 {homeData.filter((item)=>((item.cat==='Food') && (item.id>=41))).map((data,holly)=>{
             return(
@@ -189,7 +189,7 @@ function Home() {
 </div>
 
 
-<div className='hmain311 latesArticle'> 
+<div className='latest-div'> 
 
 {homeData.filter((item)=>((item.cat==='Fitness') && (item.id>=50))).map((data,holly)=>{
             return(
@@ -213,7 +213,7 @@ function Home() {
 
 
 
-<div className='hmain311 latesArticle'> 
+<div className='latest-div'> 
 <p><img  src={arrowr} alt='Not Found'/><span className='dm'> Load More</span></p>  
 {homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=52))).map((data,holly)=>{
             return(
@@ -377,8 +377,9 @@ function Home() {
 
     </div>  
 
-
-    <Footer/>
+    <div className='home-footer'>
+      < Footer/>
+    </div>
     </>
   )
 }
