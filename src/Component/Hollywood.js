@@ -207,13 +207,15 @@ hollyData.filter((item)=>item.id===12).map((data,ind)=>{
 }
 <hr/>
  
-<div className='Adds1'>
+<div className='Adds3'>
 Advertisement
 </div>
 
       </div>
   </div>
-      <Footer/>
+  <div className='compo-footer'>
+ <Footer/>
+ </div>
  </>
   )
 }
