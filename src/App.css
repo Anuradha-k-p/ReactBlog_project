@@ -395,6 +395,9 @@ padding: 0;
 .hmain3{
   display: flex;
   gap: 50px;
+  margin: 0;
+  box-sizing: border-box;
+  padding-left: 7%;
 }
 .hmain32{
   display: flex;
@@ -443,13 +446,45 @@ gap: 20px;
 .Adds1{
 
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 61%;
   border: 2px solid rgba(155, 148, 148, 0.638);
   display: flex;
   margin-top: 10%;
   width: 400px;
+  height: 150vh;
+ font-size: 28px;
+ font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+}
+.Adds2{
+  position: absolute;
+  top: 60%;
+  left: 61%;
+  border: 2px solid rgba(155, 148, 148, 0.638);
+  display: flex;
+  margin-top: 10%;
+  width: 30vw;
   height: 120vh;
+ font-size: 28px;
+ font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+}
+.Adds3{
+  position: absolute;
+  top: 70%;
+  left: 61%;
+  border: 2px solid rgba(155, 148, 148, 0.638);
+  display: flex;
+  margin-top: 10%;
+  width: 30vw;
+  height: 100vh;
  font-size: 28px;
  font-weight: bold;
   align-items: center;
@@ -567,13 +602,29 @@ margin-bottom: 20px;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    position: absolute;
-    top: 400%;
+    /* position: absolute;
+    top: 400%; */
     box-sizing: border-box;
     padding-left: 5%;
     background-image: url(https://www.shutterstock.com/image-vector/abstract-geometric-background-triangle-shape-260nw-2118507641.jpg);
     background-size: cover;
   }
+  .home-footer{
+    position: absolute;
+    top: 390%;
+    left: 0%;
+  }
+  .compo-footer{
+    position: absolute;
+    top: 400%;
+    left: 0%;
+  }
+  .food-footer{
+    position: absolute;
+    top: 430%;
+    left: 0%;
+  }
+
 .child{
   width: 20vw;
   height: 25vh;
@@ -639,7 +690,7 @@ margin-bottom: 20px;
 @media only screen and (max-width:1300px){
 
   body{
-    overflow-x: hidden;
+   overflow-x: hidden;
   }
 
   .menu{
@@ -656,11 +707,15 @@ margin-bottom: 20px;
   }
   .container{
     position: absolute;
-    top: 420vh;
+    top: 440%;
   }
   .Adds{
     position: absolute;
-    top: 250vh;
+    top: 220vh;
+  }
+  .hmain1,.b2{
+    margin: 0;
+    padding-left: 7%;
   }
  
 
@@ -675,6 +730,10 @@ margin-bottom: 20px;
   body{
     overflow-x: hidden;
   }
+  .b2l{
+    position: absolute;
+    top: 100%;
+  }
   
 .mobileview{
   display: block;
@@ -682,7 +741,12 @@ margin-bottom: 20px;
   left: 85%;
 }
 
-#bt
+
+.caption1,.caption2,.caption3{
+  display: none;
+}
+
+
 .menu{
   flex-direction: column;
   height: 40vh;
@@ -692,6 +756,13 @@ margin-bottom: 20px;
 .hmain1{
   flex-direction: column;
   width: 100vw;
+  margin: 0;
+  box-sizing: border-box;
+  padding-left: 5%;
+}
+.b2{
+  margin: 0;
+  padding: 5%;
 }
 
 .caption,.caption1.caption2{
@@ -705,6 +776,14 @@ margin-bottom: 20px;
   flex-direction: column;
   width: 100vw;
 }
+.hmain3{
+  position: absolute;
+  top: 105%;
+}
+.hmain2{
+  box-sizing: border-box;
+  padding-left: 5%;
+}
 .hds{
   width: 85vw;
 }
@@ -713,7 +792,10 @@ margin-bottom: 20px;
   display: none;
 }
 .bcontainer1{
-  width: 80vw;
+  width: 70vw;
+}
+.bcontainer{
+  width: 70vw;
 }
 .shorthome{
   width: 80vw;
@@ -747,11 +829,49 @@ margin-bottom: 20px;
 }
 
 .container{
-  position: absolute;
-  top: 580%;
+  flex-direction: column;
+  height: 170vh;
+  /* position: absolute;
+  top: 650%; */
+  box-sizing: border-box;
+  padding: 3.5%;
+}
+.child{
+  width: 90vw;
+  height: 40vh;
 }
 .dsc1,.ds1{
-  width: 40vw;
+  width: 25vw;
+}
+.dsc,.ds{
+  width: 60vw;
+}
+.himg5{
+  width: 30vw;
+}
+.hdsc{
+  width: 80vw;
+}
+.hmain21s{
+  height: 40vh;
+}
+.latest-div{
+  margin: 0;
+}
+.home-footer{
+  position: absolute;
+  top: 520%;
+  left: 0%;
+}
+.compo-footer{
+  position: absolute;
+  top: 400%;
+  left: 0%;
+}
+.food-footer{
+  position: absolute;
+  top: 430%;
+  left: 0%;
 }
 
 }
@@ -771,13 +891,19 @@ margin-bottom: 20px;
 
   .menu{
     width: 100vw;
-  
+  }
+
+  .caption1,.caption2,.caption3{
+    display: none;
   }
   .ds1{
-    width: 60vw;
+    width: 40vw;
   }
   .hmain311{
     margin: 0;
+  }
+  .hmain21s{
+    height: 52vh;
   }
   .container{
     flex-direction: column;
@@ -816,6 +942,9 @@ margin-bottom: 20px;
   }
   .dsc1{
     width: 40vw;
+  }
+  .hdsc{
+    width: 80vw;
   }
 
 }
