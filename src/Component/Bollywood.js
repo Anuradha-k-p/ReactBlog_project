@@ -198,7 +198,9 @@ function Bollywood() {
         </div>
         
     </div>
+    <div className='compo-footer'>
  <Footer/>
+ </div>
 </div>
 
 
