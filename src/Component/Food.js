@@ -196,7 +196,9 @@ function Food() {
         </div>
         
     </div>
-    <Footer/>
+    <div className='food-footer'>
+ <Footer/>
+ </div>
    </>
   )
 }
