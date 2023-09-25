@@ -3,7 +3,7 @@ import '../App.css';
  import { NavLink} from 'react-router-dom';
 // import { GiHamburgerMenu } from 'react-icons/gi';
 // import { RxCross2 } from 'react-icons/rx';
-import "./Nav.css";
+
 
 function LinkCompo() {
   const [count,setCount] = useState(false);
