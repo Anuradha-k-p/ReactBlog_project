@@ -80,7 +80,7 @@ border: 1px solid white;
 transition: .9s;
 transition-timing-function: linear;
 box-sizing: border-box;
-padding: 1%;
+/* padding: 1%; */
 border-radius: 5px;
 }
 .nav_element:active{
@@ -729,11 +729,16 @@ margin-bottom: 20px;
 @media only screen and (max-width:1000px) {
   body{
     overflow-x: hidden;
+    
+  }
+  *{
+    margin: 0;padding: 0;
   }
   .b2l{
     position: absolute;
     top: 100%;
   }
+  
   
 .mobileview{
   display: block;
@@ -771,6 +776,10 @@ margin-bottom: 20px;
 .himg1,.himg2,.himg3h{
   width: 85vw;
 }
+.himg3{
+    margin: 0;
+    width: 80vw;
+  }
 
 .hmain2,.hmain3{
   flex-direction: column;
@@ -806,13 +815,13 @@ margin-bottom: 20px;
   padding-left: 5%;
 }
 
-.himg3{
-  width: 90vw;
+.hmain322{
+  padding: 0;
 }
-
 .hmain2Cp{
   flex-direction: column;
   width: 100vw;
+  padding: 0;
 }
 
 .hmain21s{
@@ -824,8 +833,7 @@ margin-bottom: 20px;
   flex-direction: column;
   width: 100vw;
   margin: 0;
-  box-sizing: border-box;
-  padding-left: 5%;
+ 
 }
 
 .container{
@@ -888,9 +896,26 @@ margin-bottom: 20px;
   .himg1,.himg2,.himg3h{
     width: 90vw;
   }
+  .himg3{
+    margin: 0;
+    width: 80vw;
+  }
+  
 
   .menu{
-    width: 100vw;
+ 
+    position: absolute;
+    top: 10%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 45vh;
+    width: 90%;
+    box-shadow: 2px 0px 1px ;
+    background-color:rgb(65, 64, 64);
+  
   }
 
   .caption1,.caption2,.caption3{
@@ -945,6 +970,10 @@ margin-bottom: 20px;
   }
   .hdsc{
     width: 80vw;
+  }
+  .hmain3,.hmain2,.hmain1{
+    padding: 0px 0px 0px 0px;
+    width: 90vw;
   }
 
 }
