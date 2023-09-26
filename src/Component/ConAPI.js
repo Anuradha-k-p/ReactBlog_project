@@ -1,4 +1,4 @@
-import {useState,createContext} from "react";
+{useState,createContext} from "react";
 
 export const Store=createContext();
 const Datastore = (props)=>{
@@ -224,7 +224,7 @@ const Datastore = (props)=>{
    //   },
      {
       id:15,
-      Heading:"James Cameron: Diving Deep, Dredging Up Titanic",
+      Heading:"James Cameron:      Dredging Up Titanic",
       image:"https://media.npr.org/assets/img/2012/03/29/titanic_custom-fc6a03aedd8e562d780ecf9b9a8a947d4dcbf163-s800-c85.webp",
       description:"They don't call it the Challenger Deep for nothing,Cameron tells NPR's Renee Montagne. Because deep places that, together, form the last unexplored frontier on our planet.",
       date:"20 Sep 2023",
