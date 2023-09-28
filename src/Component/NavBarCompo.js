@@ -10,13 +10,13 @@ function LinkCompo() {
 
   return (
     <>
-      <div className='hdl'>
+      {/* <div className='hdl'>
         <h1>
           <span id="titlethe">THE </span>
           <span id="titlesiren">SIREN</span>
         </h1>
       </div>
-     
+      */}
 
 
 <div id="navlink">
@@ -35,7 +35,7 @@ function LinkCompo() {
         <NavLink  to="/Food"  className="link">Food</NavLink></li>
         
 </ul>
-<div onClick={()=>setCount(!count)} className="display"><i className="fa-solid fa-bars"  ></i></div>
+<div onClick={()=>setCount(!count)} className="display"><i className="fa-solid fa-bars"  >+</i></div>
 
 
 </div>
