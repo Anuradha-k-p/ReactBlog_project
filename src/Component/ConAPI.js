@@ -1,4 +1,4 @@
-{useState,createContext} from "react";
+import {useState,createContext} from "react";
 
 export const Store=createContext();
 const Datastore = (props)=>{
