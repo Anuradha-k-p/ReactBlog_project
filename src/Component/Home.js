@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Store } from './ConAPI'
-import arrowr from '../img/arrowr.svg'
+// import arrowr from '../img/arrowr.svg'
 
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
@@ -214,7 +214,7 @@ function Home() {
 
 
 <div className='latest-div'> 
-<p><img  src={arrowr} alt='Not Found'/><span className='dm'> Load More</span></p>  
+{/* <p><img  src={arrowr} alt='Not Found'/><span className='dm'> Load More</span></p>   */}
 {homeData.filter((item)=>((item.cat==='Bollywood') && (item.id>=52))).map((data,holly)=>{
             return(
                 <>
@@ -270,8 +270,8 @@ function Home() {
   </div>
    */}
   <div className='hmain322'>
-    <div>
    <h1  className='b1'>Top Posts</h1>
+    {/* <div>
     {homeData.filter((item)=>(item.id===5)).map((data,tech)=>{
             return(
                 <>
@@ -292,7 +292,37 @@ function Home() {
             )
         })
       }
+    </div> */}
+    
+
+    <div>
+    {
+  homeData.filter((item)=>item.id===16).map((data,ind)=>{
+    return(
+     
+      <div className='shorthome' key={ind}>
+        <div className='bsimg'>
+         <img className='bsimg1' src={data.image} alt='Not Found'/>
+         </div>
+         <div className='bdsc2'>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
+                </div>
+                <div id='number'><span  className='number'>1</span>
+                </div>
+      </div>
+    )
+   
+
+  })
+}
     </div>
+    <hr/>
+
+
+
+
+
     <div>
     {
   homeData.filter((item)=>item.id===39).map((data,ind)=>{
@@ -303,8 +333,8 @@ function Home() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>2</span>
                 </div>
@@ -315,7 +345,9 @@ function Home() {
   })
 }
     </div>
+
     <hr className='hrhome'/>
+
     <div>
     {
   homeData.filter((item)=>item.id===46).map((data,ind)=>{
@@ -326,8 +358,8 @@ function Home() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>3</span>
                 </div>
@@ -349,8 +381,8 @@ function Home() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>4</span>
                 </div>
