@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import {Store} from './ConAPI'
 import { Link } from 'react-router-dom';
-import arrowr from '../img/arrowr.svg'
+// import arrowr from '../img/arrowr.svg'
 import Footer from './Footer';
 function Fitness() {
   const [fitnessData]=useContext(Store);
@@ -152,11 +152,11 @@ function Fitness() {
 
 
 
-      <p><span > Load More</span><img className='d' src={arrowr} alt='Not Found'/></p>
+      {/* <p><span > Load More</span><img className='d' src={arrowr} alt='Not Found'/></p> */}
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
-      {fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===43)).map((data,bolly)=>{
+      {/* {fitnessData.filter((item)=>(item.cat==='Fitness') && (item.id===43)).map((data,bolly)=>{
           return(
               <>
             
@@ -173,7 +173,32 @@ function Fitness() {
               </>
           )
       })
-    }
+    } */}
+
+{
+fitnessData.filter((item)=>item.id===43).map((data,ind)=>{
+  return(
+    <div className='short' key={ind}>
+      <div className='bsimg'>
+       <img className='bsimg1' src={data.image} alt='Not Found'/>
+       </div>
+       <div className='bdsc2'>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
+              </div>
+              <div id='number'><span  className='number'>1</span></div>
+
+           
+    </div>
+  )
+ 
+
+})
+}
+      <hr/>
+
+
+
 
 {
 fitnessData.filter((item)=>item.id===50).map((data,ind)=>{
@@ -183,8 +208,8 @@ fitnessData.filter((item)=>item.id===50).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>2</span></div>
 
@@ -196,6 +221,8 @@ fitnessData.filter((item)=>item.id===50).map((data,ind)=>{
 })
 }
       <hr/>
+
+
       {
 fitnessData.filter((item)=>item.id===51).map((data,ind)=>{
   return(
@@ -204,8 +231,8 @@ fitnessData.filter((item)=>item.id===51).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>3</span></div>
 
@@ -225,8 +252,8 @@ fitnessData.filter((item)=>item.id===43).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>4</span></div>
 
@@ -246,7 +273,7 @@ Advertisement
       </div>
       
   </div>
-  <div className='compo-footer'>
+  <div className='Fitness-footer'>
  <Footer/>
  </div>
   </div>
