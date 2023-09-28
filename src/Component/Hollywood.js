@@ -1,7 +1,7 @@
 import React,{useContext} from 'react'
 import {Store} from './ConAPI'
 import { Link } from 'react-router-dom';
-import arrowr from '../img/arrowr.svg'
+// import arrowr from '../img/arrowr.svg'
 import Footer from './Footer';
 import '../App.css'
 function Hollywood() {
@@ -120,11 +120,11 @@ function Hollywood() {
       })
 
       } 
-     <p><span > Load More</span><img className='d' src={arrowr} alt='Not Found'/></p>
+     {/* <p><span > Load More</span><img className='d' src={arrowr} alt='Not Found'/></p> */}
       </div>
       <div className='seccnt'>
         <h1  className='b1'>Top Posts</h1>
-      {hollyData.filter((item)=>(item.cat==='Hollywood') && (item.id===16)).map((data,bolly)=>{
+      {/* {hollyData.filter((item)=>(item.cat==='Hollywood') && (item.id===16)).map((data,bolly)=>{
           return(
               <>
             
@@ -142,6 +142,35 @@ function Hollywood() {
           )
       })
     }
+ */}
+
+
+
+{
+hollyData.filter((item)=>item.id===16).map((data,ind)=>{
+  return(
+    <div className='short' key={ind}>
+      <div className='bsimg'>
+       <img className='bsimg1' src={data.image} alt='Not Found'/>
+       </div>
+       <div className='bdsc2'>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
+              </div>
+              <div id='number'><span  className='number'>1</span></div>
+
+           
+    </div>
+  )
+ 
+
+})
+}
+<hr/>
+
+
+
+
 
 {
 hollyData.filter((item)=>item.id===17).map((data,ind)=>{
@@ -151,8 +180,8 @@ hollyData.filter((item)=>item.id===17).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>2</span></div>
 
@@ -163,6 +192,9 @@ hollyData.filter((item)=>item.id===17).map((data,ind)=>{
 
 })
 }
+
+
+
       <hr/>
       {
 hollyData.filter((item)=>item.id===15).map((data,ind)=>{
@@ -172,8 +204,8 @@ hollyData.filter((item)=>item.id===15).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>3</span></div>
 
@@ -193,8 +225,8 @@ hollyData.filter((item)=>item.id===12).map((data,ind)=>{
        <img className='bsimg1' src={data.image} alt='Not Found'/>
        </div>
        <div className='bdsc2'>
-              <h3 className='bsh'>{data.Heading}</h3> 
-              <span className='ds'>{data.date}</span>
+       <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+              {/* <span className='ds'>{data.date}</span> */}
               </div>
               <div id='number'><span  className='number'>4</span></div>
 
