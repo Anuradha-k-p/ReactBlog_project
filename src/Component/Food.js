@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { Store } from './ConAPI'
 import '../App.css'
 import { Link } from 'react-router-dom';
-import arrowr from '../img/arrowr.svg'
+
 import Footer from './Footer';
 function Food() {
   const [foodData]=useContext(Store);
@@ -101,12 +101,12 @@ function Food() {
         })
 
         } 
-       <p><span >Load More</span><img className='d' src={arrowr} alt='Not Found'/></p>
+    
         </div>
 
         <div className='seccnt'>
           <h1  className='b1'>Top Posts</h1>
-        {foodData.filter((item)=>(item.cat==='Food') && (item.id===36)).map((data,bolly)=>{
+        {/* {foodData.filter((item)=>(item.cat==='Food') && (item.id===36)).map((data,bolly)=>{
             return(
                 <>
               
@@ -123,7 +123,35 @@ function Food() {
                 </>
             )
         })
-      }
+      } */}
+
+      
+{
+  foodData.filter((item)=>item.id===36).map((data,ind)=>{
+    return(
+     
+      <div className='short' key={ind}>
+        <div className='bsimg'>
+         <img className='bsimg1' src={data.image} alt='Not Found'/>
+         </div>
+         <div className='bdsc2'>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
+                </div>
+                <div id='number'><span  className='number'>1</span></div>
+
+             
+      </div>
+    )
+   
+
+  })
+}
+        <hr/>
+
+
+
+
 
 {
   foodData.filter((item)=>item.id===31).map((data,ind)=>{
@@ -134,8 +162,8 @@ function Food() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>2</span></div>
 
@@ -155,8 +183,8 @@ function Food() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>3</span></div>
 
@@ -176,8 +204,8 @@ function Food() {
          <img className='bsimg1' src={data.image} alt='Not Found'/>
          </div>
          <div className='bdsc2'>
-                <h3 className='bsh'>{data.Heading}</h3> 
-                <span className='ds'>{data.date}</span>
+         <Link to={`/Detail/${data.id}`}><h3 className='bsh'>{data.Heading}</h3></Link> 
+                {/* <span className='ds'>{data.date}</span> */}
                 </div>
                 <div id='number'><span  className='number'>4</span></div>
 
