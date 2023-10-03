@@ -766,6 +766,8 @@ margin-bottom: 20px;
   
   display: none;
   gap:6px;
+  justify-content: center;
+  text-align: center;
   
   }
 
@@ -1241,7 +1243,7 @@ height: 7vh;
 width: 7vw;
 } */
 .hambergerlinks{
-height:100vw;
+height:30vh;
 width:49vw;
 background-color: rgb(214, 115, 147);
 z-index: 2;
@@ -1256,7 +1258,8 @@ position: absolute;
 
 .show{
   display:block;
-  height: 25vh;
+  height: 20vh;
+  width: 40vw;
   /* background-color: grey; */
   justify-content: center;
   align-items: center;
@@ -1320,7 +1323,12 @@ position: absolute;
     box-sizing: border-box;
     padding-top: 35px;
   }
-  
+  .detail-para{
+    font-size: 16px;
+  }
+  .person-2{
+    display: block;
+  }
 
 
 
@@ -1364,6 +1372,9 @@ position: absolute;
   top: 145%;
 }
 
+.detail-para{
+  font-size: 16px;
+}
 
 
 
@@ -1548,6 +1559,9 @@ position: absolute;
   .bdsc{
     width: 45vw;
   }
+  .detail-para{
+    font-size: 15px;
+  }
 
 }
 @media only screen and (max-width:400px){
@@ -1636,8 +1650,41 @@ position: absolute;
     font-size: 13px;
   }
   .more1-data{
-    height: 45vh;
+    height: 55vh;
   }
+  .more-1{
+    /* position: absolute;
+    top: 400%; */
+    height: 150vh;
+  }
+  .footer{
+    position: absolute;
+    top: 400%;
+  }
+  
+
+.hambergerlinks{
+  height:220px;
+  width:49vw;
+  
+  /* align-items: center;
+  justify-content: center; */
+  
+  }
+  /* .hambergerlinks ul{
+    align-items: center;
+  justify-content: center;
+  } */
+
+
+  .dyimg{
+    height: 5vh;
+    width: 10vw;
+  }
+  .detail-para{
+    font-size: 10px;
+  }
+
 }
 
 
