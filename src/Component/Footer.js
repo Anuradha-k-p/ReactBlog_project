@@ -46,7 +46,7 @@ const Footer = () =>{
 
 
         </div>
-
+{/* 
         <div className="child" id='ch'>
         <h4>Free for enquiry : </h4>
             <label> Name: </label>
@@ -65,7 +65,7 @@ const Footer = () =>{
 
             <button className="button">send</button>
 
-        </div>
+        </div> */}
 
 
     </div>
