@@ -1150,12 +1150,13 @@ margin-bottom: 20px;
 
 .container{
  flex-direction: column;
- height: 70vh;
- justify-content:space-evenly ;
+ height: 45vh;
+ justify-content:space-between;
  align-items: center;
 }
 .child{
-  width: 35vw;
+  padding-top: 5%;
+  width: 20vw;
   height: 30vh;
 }
 
@@ -1504,11 +1505,11 @@ align-items: center;
   .container{
     flex-direction: column;
     width: 100vw;
-    height: 140vh;
+    height: 100vh;
   }
   .child{
     width: 70vw;
-    height: 32vh;
+    height: 25vh;
    box-sizing: border-box;
    padding: 2%;
     background-size: cover;
@@ -1732,8 +1733,22 @@ align-items: center;
   .detail-para{
     font-size: 10px;
   }
+  .container{
+    flex-direction: column;
+    width: 100vw;
+    height: 90vh;
+  }
+  .child{
+    width: 70vw;
+    height: 20vh;
+   box-sizing: border-box;
+   padding: 2%;
+    background-size: cover;
+    font-size: 16px;
+  }
 
 }
+
 
 
 
